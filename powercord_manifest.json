@@ -1,0 +1,8 @@
+{
+    "name": "Harmony",
+    "description": "Clean Discord idk. \nThanks to emma🌺#0968 for help and some Cusoma code i nicked",
+    "version": "1.0.0",
+    "author": "KraXen72#9190",
+    "license": "WTFPL v2",
+    "theme": "./main.css"
+}
