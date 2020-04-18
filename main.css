@@ -1,0 +1,369 @@
+/*Hi, this is Harmony for discord theme.*/
+:root {
+
+    /*some color codes used by the disord app originaly - these varibles have no effect on how the theme looks*/
+
+    /*from website*/
+    --Col-dcweb-1: #7289DA; /*blue*/
+    --Col-dcweb-2: #99AAB5; /*grey*/
+    --Col-dcweb-3: #2C2F33; /*more grey*/
+    --Col-dcweb-4: #23272A; /*not quite black*/
+
+    /*from app*/
+    --Col-dcapp-1: var(--background-primary); /*main chat window*/
+    --COl-dcapp-2: var(--background-secondary); /*channel list*/
+    --Col-dcapp-3: var(--background-tertiary);  /*server selector bg*/
+
+    /*form last time*/
+    --Colr: #1d1e1f; /*messenger grey bg*/
+
+    /*my color variables*/
+    --Col1: var(--Col-dcweb-4);
+    --Col2: var(--background-secondary);
+    --Col3: var(--Colr);
+    --Col4: var(--Col-dcweb-1);
+    --Col5: #121212;
+
+    /*changes to variables - here you can actually change the theme*/
+    --ColServerSelBG: var(--Col-dcapp-1);
+    --ColChannelList: var(--background-primary);
+  
+    /*important colors to change*/
+    --Colleft: var(--Col-dcweb-3);
+    /*--background-primary: var(--Colr);*/
+
+    /*accent color*/
+    --ColAccent:  #738adb; /*default - #738adb*/
+    --ColAccentAlpha: rgba(115, 138, 219, 0.2); /*default - rgba(115, 138, 219, 0.2) */
+    --ColTransparent1: rgba(0,0,0,0);
+
+    /*set respecitve colors to Colleft - ignore*/
+    --ColServerSelBG: var(--Colleft);
+    --ColChannelList: var(--Colleft);
+    --ColTitleBar: var(--Colleft);
+    --ColMemberList: var(--background-primary);
+    --ColLink: var(--ColAccent);
+    --text-link: var(--ColLink);
+    
+
+
+
+}
+/*misc changes*/
+
+/*scrollbars form Customa - big thanks to emma*/
+::-webkit-scrollbar {
+    width: 5px!important;
+    height: 3px!important;
+    display: block
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0)!important;
+    border: none!important
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+    border: none!important
+}
+
+/*ctrl + K quick switcher made the input a bit darker*/
+.input-2VB9rf {
+    Background-Color: var(--Col3);
+}
+
+
+.panels-j1Uci_ { /*username, mute, deafen and settings panel*/
+    background-color: var(--ColChannelList);
+}
+/*mute, deafen and settings button hover to circle - Also inspired from Customa*/
+.container-3baos1 button:not([aria-label=Unmute]):not([aria-label=Undeafen]):hover {
+    border-radius: 50%;
+}
+/*hide remove embed button*/
+.embedSuppressButton-1FonMn{
+    cursor: pointer;
+    display: none;
+}
+
+
+/*applying respecive color variables*/
+.scroller-2TZvBN { /*server selector*/
+    background-color: var(--ColServerSelBG) !important;
+}
+.container-PNkimc, .scroller-1JbKMe { /*channel list*/
+    background-color: var(--ColChannelList) !important;
+}
+.members-1998pB { /*members list*/
+    background-color: var(--ColMemberList);
+}
+.titleBar-AC4pGV { /*title bar*/
+    background-color: var(--ColTitleBar);
+}
+#app-mount, body, .bg-h5JY_x { /*app bg idk*/
+    background-color: var(--ColTitleBar);
+}
+
+/*server title bar, banner, channel header*/
+.title-3qD0b- { /*channel title bar hosting search etc.*/
+    border-top-left-radius: 15px !important;
+}
+.header-2o-2hj, .searchBar-6Kv8R2 { /*server header*/
+    z-index: 99;
+    box-shadow: none;
+    background-color: var(--ColChannelList);
+    border-top-right-radius: 10px; /*add another corner smol*/
+}
+.bannerVisible-14J9lQ { /*remove shadow if banner is visible*/
+    box-shadow: none;
+    filter: none;
+    position: relative;
+}
+.animatedContainer-1pJv5C { /*add rounded corner to banner*/
+    border-top-right-radius: 10px;
+}
+.chat-3bRxxu, .container-1D34oG, .libraryHeader-3g95kE, .container-1r6BKw, .homeWrapper-3-Wh5T, .applicationStore-1pNvnv { /* add a small rounded corner thing? to message titlebar*/
+    border-top-left-radius: 10px !important;
+}
+
+
+
+
+/*message box and realted changes*/
+.scrollableContainer-2NUZem {
+    border-radius: 25px;
+}
+.channelTextArea-rNsIhG {
+    background: transparent;
+}
+.attachButton-2WznTc, .attachWrapper-2TRKBi { /*remove divider from attachbutton*/
+    border-right: none;
+}
+.buttons-3JBrkn { /*add back margin to emoji button*/
+    margin-right: 5px !important;
+}
+.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .searchBar-6Kv8R2   {
+    background-color: var(--Colleft);
+    opacity: 1;
+}
+.innerDisabled-1YTFPN, .scrollableContainer-2NUZem {
+    opacity: 1 !important;
+}
+
+/*Home*/
+
+.channel-2QD9_O[href="/library"] {
+    
+}
+.itemCard-v9viV7 { /*firend activty bg color fix*/
+    background-color: var(--Colleft)
+}
+
+/* Move Call UI buttons a little away from the rest -  thanks to emma form Customa */
+.wrapper-2qzCYF.minimum-28Z35l {
+    height: 310px;
+}
+.videoGridWrapper-2BDlMX.minLayout-tDGzv- {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/*---------------------accent color system -again thanks to Customa--------------------*/
+/*---------------------i have very little clue what  all this means--------------------*/
+/*-------------------basically adds a lot of ColAccent around the app------------------*/
+/*alpha*/
+.buffer-26XPkd,
+.buffer-26XPkd::after,
+.buffer-26XPkd::before,
+.content-3dzVd8.isMentioned-N-h9aa,
+.mediaBarPreview-1jfyFs,
+.mediaBarPreview-1jfyFs::after,
+.mediaBarPreview-1jfyFs::before,
+.mentioned-xhSam7,
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
+.mouse-mode .message-2qnXI6.mentioned-xhSam7:hover,
+.reaction-1hd86g.reactionMe-wv5HKu,
+.wrapper-3WhCwL {
+    background-color: var(--ColAccentAlpha)
+}
+.checkbox-1ix_J3[style*="rgba(67, 181, 129, 0.15)"],
+.folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.4);"] {
+    background: var(--ColAccentAlpha)!important
+}
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2);"] {
+    background-color: var(--ColAccentAlpha)!important;
+    color: var(--ColAccent)!important
+}
+.highlight {
+    background-color: var(--ColAccentAlpha);
+    filter: brightness(3)
+}
+/*normal*/
+.barFill-23-gu-,
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
+.children-rWhLdy .nowPlaying-284llR,
+.circleIconButton-jET_ig.selected-ugP_am,
+.container-3ayLPN .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
+.container-3ayLPN .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover,
+.containerDragAfter-1F4fgZ::after,
+.containerDragAfter-3TEhpe::before,
+.containerDragBefore-31UGCO::before,
+.containerDragBefore-3Dzc5x::before,
+.datePicker--XZbmJ .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected::after,
+.datePicker--XZbmJ .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
+.datePicker--XZbmJ .calendarPicker-2yf6Ci .react-datepicker__day:hover,
+.headerPlaying-j0WQBV,
+.headerSpotify-zpWxgT,
+.headerStreaming-2FjmGz,
+.headerXbox-3G-4PF,
+.iconBadge-2wi9r4.participating-NBGDkr,
+.iconBadge-qZ4Ksk,
+.isUnread-3Ef-o9 .content-1o0f9g,
+.item-2hkk8m,
+.item-3eFBNF.selected-2DeaDa,
+.mediaBarGrabber-1FqnbN,
+.mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN,
+.mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN,
+.mediaBarProgress-1xaPtl,
+.mediaBarProgress-1xaPtl::after,
+.mediaBarProgress-1xaPtl::before,
+.mention-1f5kbO,
+.mention-1f5kbO:active,
+.mentioned-xhSam7::before,
+.newMessagesBar-mujexs,
+.progressBar-2Hd4f8 .barForeground-3KglC8,
+.questionMark-CWEQZn.flexCenter-3_1bcw,
+.questionMark-CWEQZn.flexCenter-3_1bcw:hover,
+.result-3w1ZcL .categoryFadeBlurple-1j72_A,
+.result-3w1ZcL .categoryFadeBlurple-1j72_A:hover,
+.selectorButtonSelected-1j4DmC,
+.selectorButtonSelected-336oUc,
+.side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ,
+.sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ,
+.switch-3wwwcV.valueChecked-m-4IJZ,
+.tooltip-2QfLtc.tooltipBrand-g03Nz8,
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P,
+.topSectionStreaming-1Tpf5X,
+.topSectionXbox-3fWLjS,
+.unread-3zKkbm,
+.unreadPill-2HyYtt,
+.userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4,
+.wanderingCubesItem-WPXqao,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9,
+.wrapper-232cHJ,
+.wrapper-3WhCwL:hover {
+    background-color: var(--ColAccent)
+}
+.item-26Dhrx[style*="rgb(114, 137, 218)"],
+.languageCheckbox .checkbox-1ix_J3.checked-3_4uQ9,
+.numberBadge-2s8kKX,
+.pageControl-1aUwvK .activeButton-1BJAiN,
+.progress-3Rbvu0 .progressBar-3u8FBM,
+.result-3w1ZcL[style*=background-color],
+.selectableItem-1MP3MQ.selected-31soGA,
+.switch-3wwwcV.valueChecked-m-4IJZ[style*="rgb(67, 181, 129)"],
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129);"] {
+    background-color: var(--ColAccent)!important
+}
+.attachButtonPlay-3iJ0mf, /*server plus and search button is the only thing i can notice*/
+.circleIconButton-jET_ig,
+.hasMore-3e72_v,
+.hasMoreButton-1MELpI,
+.progress-LWvunf .foreground-2EIns2,
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.searchBar-3dMhjb .searchAnswer-3Dz2-q,
+.selectorNitroIcon-3FDeDE,
+.statusGreen-168O6Q,
+.tier-12tKuZ .tierUnlocked-25K6Kv,
+.tierHeaderContent-2-YfvN .tierUnlocked-27DwHo,
+.unreadPill-2HyYtt .unreadPillCapStroke-7rkHbg,
+.updateIconForeground-3tnNZn,
+.wrapper-3WhCwL {
+    color: var(--ColAccent)
+}
+.expandedFolderIconWrapper-1xLaU- svg[style="color: rgb(114, 137, 218);"] {
+    color: var(--ColAccent)!important
+}
+.checkbox-3kaeSU,  .checkboxInner-3yjcPe, .checkboxElement-1qV33p:checked+span,
+.dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:focus,
+.dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,
+.dropdown-2fxkrS .lookFilled-1h1y05.selectOpen-hQuR6b,
+.emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S,
+.footer-1fjuF6 .quickMessage-1yeL4E:focus,
+.horizontalAutocomplete-L5KnTN .selector-2IcQBU.selectorSelected-1_M1WV,
+.imageSelected-4Kl81J,
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus,
+.isUnread-3Ef-o9,
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover,
+.select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV.selectOpen-hQuR6b,
+.select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV.selectOpen-hQuR6b:hover,
+.select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV:focus {
+    border-color: var(--ColAccent)
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+    border-bottom: 1px solid var(--ColAccent)
+}
+.avatarSpeaking-3MqCHL, /*something to do with calling?*/
+.border-3dQmSY.speaking-WDn8Wm,
+.border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
+.border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi,
+.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi,
+.content-ySCtCx .focused-1En8bG::after,
+.content-ySCtCx .result-3w1ZcL:hover::after,
+.tile-2silOL:hover .sourceThumbnail-14Iubx {
+    box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1)
+}
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2);"] {
+    background-color: var(--ColAccentAlpha)!important;
+    color: var(--ColAccent)!important
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j { /*upload 2nd screen border around preview*/
+    border: 2px solid var(--ColAccent)
+}
+.uploadModal-2ifh8j .inner-3nWsbo,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo {
+    border: 2px dashed var(--ColAccent);
+    border-radius: 10px;
+}
+.powercord-spotify-playlist:hover {
+    background-color: var(--ColTransparent1)!important;
+    border-color: var(--ColAccent)!important
+}
+.regionSelect-3lf4eE button, /* what is .wrapper-2ZbzR9 and .downloadApps-wbBFdZ ?*/
+.wrapper-2ZbzR9 .actions-pBaxX6 .action-1lSjCi.join-33Tr-7 *,
+.wrapper-2ZbzR9 .header-3ZP1MY,
+.wrapper-2ZbzR9 .sampleLink-KPFu3I,
+.wrapper-2ZbzR9 .slide-2pHaq5 h5 {
+    color: var(--ColAccent)
+}
+.regionSelectWrapper-1favwk .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
+.regionSelectWrapper-1favwk .regionSelect-3lf4eE:hover button {
+    border-color: var(--ColAccent)
+}
+.powercord .check-2by_h9::after {
+    content: "\f00c";
+    color: var(--ColAccent);
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro", sans-serif!important
+}
+.container svg path .unreadPillCapStroke-7rkHbg, .unreadPillCap-3_K2q2 {
+    color: var(--ColAccent);
+    stroke: var(--ColAccent) !important;
+}
+.flowerStar-1GeTsn path,
+.selectorNitroIcon-3FDeDE g path,
+.unreadPill-2HyYtt .unreadPillCapStroke-7rkHbg,
+.updateIconForeground-3tnNZn {
+    fill: currentColor
+}
+.content-1o0f9g { /*fix the -----date----new bar*/
+    color: white !important;
+}
+
