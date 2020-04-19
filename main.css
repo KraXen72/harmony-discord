@@ -310,6 +310,7 @@
 .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
     border-bottom: 1px solid var(--ColAccent)
 }
+
 .avatarSpeaking-3MqCHL, /*something to do with calling?*/
 .border-3dQmSY.speaking-WDn8Wm,
 .border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
@@ -318,7 +319,7 @@
 .content-ySCtCx .focused-1En8bG::after,
 .content-ySCtCx .result-3w1ZcL:hover::after,
 .tile-2silOL:hover .sourceThumbnail-14Iubx {
-    box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1)
+    box-shadow: inset 0 0 0 3px var(--ColAccent);
 }
 .tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2);"] {
     background-color: var(--ColAccentAlpha)!important;
