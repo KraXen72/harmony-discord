@@ -72,8 +72,6 @@
 .input-2VB9rf {
     Background-Color: var(--Col3);
 }
-
-
 .panels-j1Uci_ { /*username, mute, deafen and settings panel*/
     background-color: var(--ColChannelList);
 }
@@ -85,6 +83,12 @@
 .embedSuppressButton-1FonMn{
     cursor: pointer;
     display: none;
+}
+/*emoji picker*/
+.header-1nkwgG {
+    --webkit-shadow: none;
+    box-shadow: none !important;
+    filter: none;
 }
 
 
@@ -115,7 +119,7 @@
     background-color: var(--ColChannelList);
     border-top-right-radius: 10px; /*add another corner smol*/
 }
-.bannerVisible-14J9lQ { /*remove shadow if banner is visible*/
+.bannerVisible-14J9lQ,{ /*remove shadow if banner is visible*/
     box-shadow: none;
     filter: none;
     position: relative;
@@ -126,6 +130,7 @@
 .chat-3bRxxu, .container-1D34oG, .libraryHeader-3g95kE, .container-1r6BKw, .homeWrapper-3-Wh5T, .applicationStore-1pNvnv { /* add a small rounded corner thing? to message titlebar*/
     border-top-left-radius: 10px !important;
 }
+
 
 
 
@@ -143,7 +148,7 @@
 .buttons-3JBrkn { /*add back margin to emoji button*/
     margin-right: 5px !important;
 }
-.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .searchBar-6Kv8R2   {
+.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .searchBar-6Kv8R2, {
     background-color: var(--Colleft);
     opacity: 1;
 }
@@ -367,4 +372,17 @@
 .content-1o0f9g { /*fix the -----date----new bar*/
     color: white !important;
 }
+
+
+/*some experiments from CSS snipets*/
+
+@import url(https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css); /*hack monospace font as codeblocks*/
+code {
+  font-family: 'Hack';
+} 
+.channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA[aria-label="Send a gift" i]:first-child {
+    display:none;
+}
+
+
 
