@@ -1,5 +1,6 @@
-# harmony-discord
-Harmony theme for Discord
+# Harmony theme for Discord
+
+vanilla Discord but Harmony
   
 install using powercord. https://powercord.dev
 put in powercord/src/themes  
