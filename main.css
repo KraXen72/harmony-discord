@@ -134,8 +134,7 @@
 
 
 
-
-/*message box and realted changes*/
+/*message box, jump bars and realted changes*/
 .scrollableContainer-2NUZem {
     border-radius: 25px;
 }
@@ -148,13 +147,28 @@
 .buttons-3JBrkn { /*add back margin to emoji button*/
     margin-right: 5px !important;
 }
-.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .searchBar-6Kv8R2, .barButtonMain-1giYuj {
-    background-color: var(--Colleft);
+.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .newMessagesBar-mujexs, .searchBar-6Kv8R2, .barButtonMain-1giYuj {
+    background-color: var(--Colleft) !important;
     opacity: 1;
 }
 .innerDisabled-1YTFPN, .scrollableContainer-2NUZem {
     opacity: 1 !important;
 }
+.barButtonAlt-3gIkIj{
+    background: transparent;
+}
+.newMessagesBar-mujexs {
+    border-bottom-left-radius: 13px !important;
+}
+.barButtonMain-1giYuj {
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    background-color: var(--Colleft);
+}
+.barButtonAlt-3gIkIj {
+    color: var(--ColAccent);
+}
+
 
 /*Home*/
 .itemCard-v9viV7 { /*firend activty bg color fix*/
