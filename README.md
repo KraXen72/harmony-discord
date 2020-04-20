@@ -13,8 +13,8 @@ screenshots:
 ![screenshot](https://cdn.discordapp.com/attachments/511242683751333899/701107683893444718/unknown.png)  
 ![screen2](https://cdn.discordapp.com/attachments/538734863977676803/701708970246537266/unknown.png)
 some changes i made:
-![screen3](https://cdn.discordapp.com/attachments/538734863977676803/701710433148469279/unknown.png)
-![screen4](https://cdn.discordapp.com/attachments/538734863977676803/701716193844789268/unknown.png)
+:-------------------------:|:-------------------------:
+![](https://cdn.discordapp.com/attachments/538734863977676803/701710433148469279/unknown.png)  |  ![](https://cdn.discordapp.com/attachments/538734863977676803/701716193844789268/unknown.png)
 ![ctrl+kbg](https://cdn.discordapp.com/attachments/538734863977676803/701710951933804574/unknown.png)  
 call ui fix  
 ![callui](https://cdn.discordapp.com/attachments/538734863977676803/701711840278872154/unknown.png)
