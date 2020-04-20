@@ -148,7 +148,7 @@
 .buttons-3JBrkn { /*add back margin to emoji button*/
     margin-right: 5px !important;
 }
-.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .searchBar-6Kv8R2, {
+.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .searchBar-6Kv8R2, .barButtonMain-1giYuj {
     background-color: var(--Colleft);
     opacity: 1;
 }
@@ -157,10 +157,6 @@
 }
 
 /*Home*/
-
-.channel-2QD9_O[href="/library"] {
-    
-}
 .itemCard-v9viV7 { /*firend activty bg color fix*/
     background-color: var(--Colleft)
 }
