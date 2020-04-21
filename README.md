@@ -20,6 +20,8 @@ call ui fix
 UPDATE: jump & new message bars  
 ![new messages](https://cdn.discordapp.com/attachments/538734863977676803/702113991698153502/unknown.png)  
 ![jump to present](https://cdn.discordapp.com/attachments/538734863977676803/702114296498487337/unknown.png)  
+Update: new status picker:  
+![status picker](https://cdn.discordapp.com/attachments/538734863977676803/702176626259132477/unknown.png)
   
 for questions contact KraXen72#9190 on Discord    
   
