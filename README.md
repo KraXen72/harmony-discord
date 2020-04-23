@@ -10,20 +10,8 @@ You have to put both files in powercord/src/themes/Harmony
 enjoy.  
   
 screenshots:   
-![screenshot](https://cdn.discordapp.com/attachments/511242683751333899/701107683893444718/unknown.png)  
-![screen2](https://cdn.discordapp.com/attachments/538734863977676803/701708970246537266/unknown.png)
-some changes i made:  
-![alt-text-1][logo]  ![alt-text-2][logon]  
-![ctrl+kbg](https://cdn.discordapp.com/attachments/538734863977676803/701710951933804574/unknown.png)  
-call ui fix  
-![callui](https://cdn.discordapp.com/attachments/538734863977676803/701711840278872154/unknown.png)  
-UPDATE: jump & new message bars  
-![new messages](https://cdn.discordapp.com/attachments/538734863977676803/702113991698153502/unknown.png)  
-![jump to present](https://cdn.discordapp.com/attachments/538734863977676803/702114296498487337/unknown.png)  
-Update: new status picker:  
-![status picker](https://cdn.discordapp.com/attachments/538734863977676803/702176626259132477/unknown.png)
+![main screen](https://cdn.discordapp.com/attachments/538734863977676803/702845041558814730/main_screen.png)  
+![changes part 1](https://cdn.discordapp.com/attachments/538734863977676803/702845044129792090/changes.png)  
+![changes part 2](https://cdn.discordapp.com/attachments/538734863977676803/702845046986375208/changes2.png)  
   
 for questions contact KraXen72#9190 on Discord    
-  
-[logo]: https://cdn.discordapp.com/attachments/538734863977676803/701710433148469279/unknown.png
-[logon]: https://cdn.discordapp.com/attachments/538734863977676803/701716193844789268/unknown.png
