@@ -181,6 +181,13 @@
     background-color: var(--Colleft)
 }
 
+/*call related changes*/
+.container-1giJp5 {
+    border-bottom: transparent;
+}
+.overlayTitle-8IcS01.idle-U-LIlZ {
+    opacity: 1 !important
+}
 /* Move Call UI buttons a little away from the rest -  thanks to emma form Customa */
 .wrapper-2qzCYF.minimum-28Z35l {
     height: 310px;
@@ -386,8 +393,4 @@
 }
 /*--------------------End of accent color stuff from customa--------------------*/
 /*------------------------------------------------------------------------------*/
-
-.container-1giJp5 {
-    border-bottom: transparent;
-}
 
