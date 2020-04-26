@@ -82,12 +82,59 @@
     cursor: pointer;
     display: none;
 }
-/*emoji picker*/
-.header-1nkwgG {
+/*emoji picker - fix?*/
+.header-1nkwgG, .header-8ilj5e, .header-1TOWci {
     --webkit-shadow: none;
     box-shadow: none !important;
     filter: none;
 }
+/* Revert Emoji Picker  - credit to emma🌺#0968 */ 
+.navList-1Y3exK {
+    display: none;
+  }
+  .contentWrapper-2txmjs {
+    padding-top: 0;
+  }
+  .wrapper-1rqM3x, .container-3ISnnM {
+    margin-top: -15px;
+  }
+  .emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
+    transform: rotate(-90deg) translateX(-143px) translateY(190px);
+    height: 430px;
+  }
+  
+  .listItems-1uJgMC .categoryItem-1D0nxC, .unicodeShortcut-15J8Ck {
+    transform: rotate(90deg);
+  }
+  
+  .emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl{
+    grid-template-rows: 46px auto calc(56px + 48px);
+    grid-template-columns: 0 auto;
+    position: relative;
+  }
+  .drawerSizingWrapper-27qFHb {
+    max-width: 424px;
+  }
+  .resizeHandle-2VYGet {
+    display: none;
+    cursor: default;
+  }
+/*reaction emoji picker*/
+.categoryList-2Kzf65 {
+    transform: rotate(-90deg);
+    transform: rotate(-90deg) translateX(-143px) translateY(190px);
+    height: 430px;
+}
+.emojiPicker-3PwZFl {
+    grid-template-rows: 46px auto calc(56px + 48px) !important;
+    grid-template-columns: 0 auto !important;
+    position: relative !important;
+}
+.emojiPicker-3PwZFl {
+    height: 440px;
+    width: 428px;
+}
+
 /*redoing the status picker and server menu a bit.*/
 .helper-2c73HK, .separator-2zcjq8[aria-hidden=true] {
     display: none;
@@ -95,8 +142,6 @@
 .statusItem-2uzPIV:hover, .item-1GzJrl:hover, .itemHighlighted-1DpT7C {
     border-radius: 5px !important;
 }
-
-
 
 /*applying respecive color variables*/
 .scroller-2TZvBN { /*server selector*/
