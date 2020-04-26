@@ -134,6 +134,10 @@
     height: 440px;
     width: 428px;
 }
+.emoji-AAbs8r {
+    margin-left: -5px !important;
+}
+
 
 /*redoing the status picker and server menu a bit.*/
 .helper-2c73HK, .separator-2zcjq8[aria-hidden=true] {
@@ -219,6 +223,9 @@
 /*hide gift send*/
 .channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA[aria-label="Send a gift" i]:first-child {
     display:none;
+}
+.attachButtonInner-PQjIyk {
+    margin-left: -4px !important;
 }
 
 /*Home*/
