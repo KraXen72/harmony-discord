@@ -91,10 +91,10 @@
 /* Revert Emoji Picker  - credit to emma🌺#0968 for most of the code */ 
 /*----disable this to check if ther are  more emoji picker things in the nav*/
 
-.nav-2KnmHb {
-    display: none;
-}
 
+.content-ySCtCx, .container-3ISnnM {
+    Display: block !important;
+}
   .emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
     transform: rotate(-90deg) translateX(-143px) translateY(190px);
     height: 430px;
