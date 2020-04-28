@@ -88,16 +88,13 @@
     box-shadow: none !important;
     filter: none;
 }
-/* Revert Emoji Picker  - credit to emma🌺#0968 */ 
-.navList-1Y3exK {
+/* Revert Emoji Picker  - credit to emma🌺#0968 for most of the code */ 
+/*----disable this to check if ther are  more emoji picker things in the nav*/
+
+.nav-2KnmHb {
     display: none;
-  }
-  .contentWrapper-2txmjs {
-    padding-top: 0;
-  }
-  .wrapper-1rqM3x, .container-3ISnnM {
-    margin-top: -15px;
-  }
+}
+
   .emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
     transform: rotate(-90deg) translateX(-143px) translateY(190px);
     height: 430px;
@@ -129,15 +126,15 @@
     grid-template-rows: 46px auto calc(56px + 48px) !important;
     grid-template-columns: 0 auto !important;
     position: relative !important;
+    
 }
 .emojiPicker-3PwZFl {
-    height: 440px;
-    width: 428px;
+    height: 440px !important;
+    width: 428px !important;
 }
 .emoji-AAbs8r {
     margin-left: -5px !important;
 }
-
 
 /*redoing the status picker and server menu a bit.*/
 .helper-2c73HK, .separator-2zcjq8[aria-hidden=true] {
@@ -333,7 +330,8 @@
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .wrapper-232cHJ,
-.wrapper-3WhCwL:hover {
+.wrapper-3WhCwL:hover
+ {
     background-color: var(--ColAccent)
 }
 .item-26Dhrx[style*="rgb(114, 137, 218)"],
@@ -440,7 +438,7 @@
 .updateIconForeground-3tnNZn {
     fill: currentColor
 }
-.content-1o0f9g { /*fix the -----date----new bar*/
+.content-1o0f9g,  .mention:hover { /*fix the -----date----new bar .mention:hover*/
     color: white !important;
 }
 /*--------------------End of accent color stuff from customa--------------------*/
