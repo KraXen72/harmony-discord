@@ -117,10 +117,13 @@
   .drawerSizingWrapper-27qFHb {
     max-width: 424px;
   }
-  .resizeHandle-2VYGet {
+  .resizeHandle-2VYGet { /*disable, resize and reenable this if ur emoji FAT*/
     display: none;
     cursor: default;
   }
+  .emoji-AAbs8r { /*emoji preview center it*/
+    margin-left: -5px !important;
+}
 /*reaction emoji picker*/
 .categoryList-2Kzf65 {
     transform: rotate(-90deg);
@@ -136,7 +139,7 @@
     height: 440px;
     width: 428px;
 }
-
+/*edit message picker*/
 
 /*redoing the status picker and server menu a bit.*/
 .helper-2c73HK, .separator-2zcjq8[aria-hidden=true] {
@@ -313,8 +316,8 @@
 .progressBar-2Hd4f8 .barForeground-3KglC8,
 .questionMark-CWEQZn.flexCenter-3_1bcw,
 .questionMark-CWEQZn.flexCenter-3_1bcw:hover,
-.result-3w1ZcL .categoryFadeBlurple-1j72_A,
-.result-3w1ZcL .categoryFadeBlurple-1j72_A:hover,
+.result-3w1ZcL
+.result-3w1ZcL
 .selectorButtonSelected-1j4DmC,
 .selectorButtonSelected-336oUc,
 .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ,
