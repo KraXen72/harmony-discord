@@ -449,12 +449,6 @@
 /*--------------------End of accent color stuff from customa--------------------*/
 /*------------------------------------------------------------------------------*/
 
-/*more things idk*/
-.buttons-3JBrkn { /* hide edit message emoji picker thanks to emma once again for big brain*/
-    transform: translateX(200px);
-    transition: transform .2s .4s;
-}
-
 /*quickcss codeblock design*/
 .powercord-quickcss{
     border-radius: 5px;
@@ -484,3 +478,4 @@
     overflow-y: auto !important;
     max-height: 800px !important;
 }
+
