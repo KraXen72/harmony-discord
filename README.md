@@ -2,10 +2,17 @@
 
 vanilla Discord but Harmony
   
-install using powercord. https://powercord.dev
-put in powercord/src/themes  
-you can also install by @import url("https://github.com/KraXen72/harmony-discord/edit/master/main.css") into your css and making a manifest for it: https://ghostlydilemma.github.io/powercord-manifest-generator/.  
-You have to put both files in powercord/src/themes/Harmony  
+**install using powercord.** https://powercord.dev
+## Installation
+1. make a plain css file.  
+2. put in ``powercord/src/themes/Harmony``
+3. put this into your css file:  
+```css 
+@import 'https://raw.githubusercontent.com/KraXen72/harmony-discord/master/main.css'; 
+```   
+4. download the ``powercord_manifest.json`` from this repo and put it in the same folder.  
+5. ``Ctrl + R`` on discord to refresh it.
+6. If you want to turn the theme off or on, also switch themes, i recommend installing this plugin: https://github.com/LandenStephenss/Themer.  
   
 enjoy.  
   
