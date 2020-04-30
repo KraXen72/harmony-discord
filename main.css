@@ -454,3 +454,29 @@
     transform: translateX(200px);
     transition: transform .2s .4s;
 }
+
+/*quickcss codeblock design*/
+.powercord-quickcss{
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid var(--background-tertiary);
+    background: var(--background-secondary);
+  }
+  
+  :root .powercord-quickcss-header, :root .powercord-quickcss-footer, .powercord-quickcss .CodeMirror, .powercord-quickcss .CodeMirror-gutters{
+    background: transparent !important;
+  }
+  /**
+ * Snippet from #css-snippets applied the Apr 30, 2020 at 5:31:56 PM
+ * Created by A user#0001 (264062457448759296)
+ * Snippet ID: 705440006960840799
+ * blur email until hover
+ */
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1 {
+    filter: blur(5px);
+    transition: filter .5s;
+}
+
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1:hover{
+    filter: blur(0);
+}
