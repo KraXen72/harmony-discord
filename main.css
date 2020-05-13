@@ -1,21 +1,25 @@
 :root {
 
     /*some color codes used by the disord app originaly - these varibles have no effect on how the theme looks*/
-
     /*from website*/
-    --Col-dcweb-1: #7289DA; /*blue*/
-    --Col-dcweb-2: #99AAB5; /*grey*/
-    --Col-dcweb-3: #2C2F33; /*more grey*/
-    --Col-dcweb-4: #23272A; /*not quite black*/
-
+    --Col-dcweb-1: #7289DA;
+    /*blue*/
+    --Col-dcweb-2: #99AAB5;
+    /*grey*/
+    --Col-dcweb-3: #2C2F33;
+    /*more grey*/
+    --Col-dcweb-4: #23272A;
+    /*not quite black*/
     /*from app*/
-    --Col-dcapp-1: var(--background-primary); /*main chat window*/
-    --COl-dcapp-2: var(--background-secondary); /*channel list*/
-    --Col-dcapp-3: var(--background-tertiary);  /*server selector bg*/
-
+    --Col-dcapp-1: var(--background-primary);
+    /*main chat window*/
+    --COl-dcapp-2: var(--background-secondary);
+    /*channel list*/
+    --Col-dcapp-3: var(--background-tertiary);
+    /*server selector bg*/
     /*form last time*/
-    --Colr: #1d1e1f; /*messenger grey bg*/
-
+    --Colr: #1d1e1f;
+    /*messenger grey bg*/
     /*my color variables*/
     --Col1: var(--Col-dcweb-4);
     --Col2: var(--background-secondary);
@@ -26,15 +30,16 @@
     /*changes to variables - here you can actually change the theme*/
     --ColServerSelBG: var(--Col-dcapp-1);
     --ColChannelList: var(--background-primary);
-  
+
     /*important colors to change*/
     --Colleft: var(--Col-dcweb-3);
     /*--background-primary: var(--Colr);*/
-
     /*accent color*/
-    --ColAccent:  #738adb; /*default - #738adb*/
-    --ColAccentAlpha: rgba(115, 138, 219, 0.2); /*default - rgba(115, 138, 219, 0.2) */
-    --ColTransparent1: rgba(0,0,0,0);
+    --ColAccent: #738adb;
+    /*default - #738adb*/
+    --ColAccentAlpha: rgba(115, 138, 219, 0.2);
+    /*default - rgba(115, 138, 219, 0.2) */
+    --ColTransparent1: rgba(0, 0, 0, 0);
 
     /*set respecitve colors to Colleft - ignore*/
     --ColServerSelBG: var(--Colleft);
@@ -43,13 +48,8 @@
     --ColMemberList: var(--background-primary);
     --ColLink: var(--ColAccent);
     --text-link: var(--ColLink);
-    
-
-
-
 }
 /*misc changes*/
-
 /*scrollbars form Customa - big thanks to emma*/
 ::-webkit-scrollbar {
     width: 5px!important;
@@ -70,7 +70,8 @@
 .input-2VB9rf {
     Background-Color: var(--Col3);
 }
-.panels-j1Uci_ { /*username, mute, deafen and settings panel*/
+.panels-j1Uci_ {
+    /*username, mute, deafen and settings panel*/
     background-color: var(--ColChannelList);
 }
 /*mute, deafen and settings button hover to circle - Also inspired from Customa*/
@@ -78,50 +79,56 @@
     border-radius: 50%;
 }
 /*hide remove embed button*/
-.embedSuppressButton-1FonMn{
+.embedSuppressButton-1FonMn {
     cursor: pointer;
     display: none;
 }
 /*emoji picker - fix?*/
-.header-1nkwgG, .header-8ilj5e, .header-1TOWci {
+.header-1nkwgG,
+.header-8ilj5e,
+.header-1TOWci {
     --webkit-shadow: none;
     box-shadow: none !important;
     filter: none;
 }
 
 /*emoji picker fix maybe*/
-/*credit to emma🌺#0968 for most of the code */ 
+/*credit to emma🌺#0968 for most of the code */
 .navList-1Y3exK {
     display: none;
-  }
-  .contentWrapper-2txmjs {
+}
+.contentWrapper-2txmjs {
     padding-top: 0;
-  }
-  .wrapper-1rqM3x, .container-3ISnnM {
+}
+.wrapper-1rqM3x,
+.container-3ISnnM {
     margin-top: -15px;
-  }
-  .emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
+}
+.emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
     transform: rotate(-90deg) translateX(-143px) translateY(190px);
     height: 430px;
-  }
-  
-  .listItems-1uJgMC .categoryItem-1D0nxC, .unicodeShortcut-15J8Ck {
+}
+
+.listItems-1uJgMC .categoryItem-1D0nxC,
+.unicodeShortcut-15J8Ck {
     transform: rotate(90deg);
-  }
-  
-  .emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl{
+}
+
+.emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl {
     grid-template-rows: 46px auto calc(56px + 48px);
     grid-template-columns: 0 auto;
     position: relative;
-  }
-  .drawerSizingWrapper-27qFHb {
+}
+.drawerSizingWrapper-27qFHb {
     max-width: 424px;
-  }
-  .resizeHandle-2VYGet { /*disable, resize and reenable this if ur emoji FAT*/
+}
+.resizeHandle-2VYGet {
+    /*disable, resize and reenable this if ur emoji FAT*/
     display: none;
     cursor: default;
-  }
-  .emoji-AAbs8r { /*emoji preview center it*/
+}
+.emoji-AAbs8r {
+    /*emoji preview center it*/
     margin-left: -5px !important;
 }
 /*reaction emoji picker*/
@@ -139,55 +146,95 @@
     height: 440px;
     width: 428px;
 }
-/*edit message picker*/
+.categoryWrapper-UZ5YNj,
+.header-8ilj5e,
+.nav-2KnmHb,
+.header-1TOWci,
+. {
+    background-color: var(--Colleft);
+}
 
+
+/*edit message picker*/
 /*redoing the status picker and server menu a bit.*/
-.helper-2c73HK, .separator-2zcjq8[aria-hidden=true] {
+.helper-2c73HK,
+.separator-2zcjq8[aria-hidden=true] {
     display: none;
 }
-.statusItem-2uzPIV:hover, .item-1GzJrl:hover, .itemHighlighted-1DpT7C {
+.statusItem-2uzPIV:hover,
+.item-1GzJrl:hover,
+.itemHighlighted-1DpT7C {
     border-radius: 5px !important;
 }
 
 /*applying respecive color variables*/
-.scroller-2TZvBN { /*server selector*/
+.scroller-2TZvBN {
+    /*server selector*/
     background-color: var(--ColServerSelBG) !important;
 }
-.container-PNkimc, .scroller-1JbKMe { /*channel list*/
+.container-PNkimc,
+.scroller-1JbKMe {
+    /*channel list*/
     background-color: var(--ColChannelList) !important;
 }
-.members-1998pB { /*members list*/
+.members-1998pB {
+    /*members list*/
     background-color: var(--ColMemberList);
 }
-.titleBar-AC4pGV { /*title bar*/
+.titleBar-AC4pGV {
+    /*title bar*/
     background-color: var(--ColTitleBar);
 }
-#app-mount, body, .bg-h5JY_x { /*app bg idk*/
+#app-mount,
+body,
+.bg-h5JY_x {
+    /*app bg idk*/
     background-color: var(--ColTitleBar);
 }
 
 /*server title bar, banner, channel header*/
-.title-3qD0b- { /*channel title bar hosting search etc.*/
+.title-3qD0b- {
+    /*channel title bar hosting search etc.*/
     border-top-left-radius: 15px !important;
 }
-.header-2o-2hj, .searchBar-6Kv8R2 { /*server header*/
+.header-2o-2hj,
+.searchBar-6Kv8R2 {
+    /*server header*/
     z-index: 99;
     box-shadow: none;
     background-color: var(--ColChannelList);
-    border-top-right-radius: 10px; /*add another corner smol*/
+    border-top-right-radius: 10px;
+    /*add another corner smol*/
 }
-.bannerVisible-14J9lQ,{ /*remove shadow if banner is visible*/
+.bannerVisible-14J9lQ,
+{
+    /*remove shadow if banner is visible*/
     box-shadow: none;
     filter: none;
     position: relative;
 }
-.animatedContainer-1pJv5C { /*add rounded corner to banner*/
+.animatedContainer-1pJv5C {
+    /*add rounded corner to banner*/
     border-top-right-radius: 10px;
 }
-.chat-3bRxxu, .container-1D34oG, .libraryHeader-3g95kE, .container-1r6BKw, .homeWrapper-3-Wh5T, .applicationStore-1pNvnv { /* add a small rounded corner thing? to message titlebar*/
+.chat-3bRxxu,
+.container-1D34oG,
+.libraryHeader-3g95kE,
+.container-1r6BKw,
+.homeWrapper-3-Wh5T,
+.applicationStore-1pNvnv,
+.scroller-1d5FgU,
+.scroller-2FKFPG,
+.pageHeaderDrag-OPlmbm {
+    /* add a small rounded corner thing? to message titlebar*/
     border-top-left-radius: 10px !important;
 }
-
+.pageWrapper-1PgVDX {
+    border-top-left-radius: 10px !important;
+}
+.scroller-2FKFPG.scroller-2TZvBN {
+    border-top-left-radius: 0px !important;
+}
 /*message box, jump bars and realted changes*/
 .scrollableContainer-2NUZem {
     border-radius: 25px;
@@ -195,20 +242,29 @@
 .channelTextArea-rNsIhG {
     background: transparent;
 }
-.attachButton-2WznTc, .attachWrapper-2TRKBi { /*remove divider from attachbutton*/
+.attachButton-2WznTc,
+.attachWrapper-2TRKBi {
+    /*remove divider from attachbutton*/
     border-right: none;
 }
-.buttons-3JBrkn { /*add back margin to emoji button*/
+.buttons-3JBrkn {
+    /*add back margin to emoji button*/
     margin-right: 5px !important;
 }
-.jumpToPresentBar-9P20AM, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .newMessagesBar-mujexs, .searchBar-6Kv8R2, .barButtonMain-1giYuj {
+.jumpToPresentBar-9P20AM,
+.searchBar-3dMhjb,
+.searchBarComponent-32dTOx,
+.newMessagesBar-mujexs,
+.searchBar-6Kv8R2,
+.barButtonMain-1giYuj {
     background-color: var(--Colleft) !important;
     opacity: 1;
 }
-.innerDisabled-1YTFPN, .scrollableContainer-2NUZem {
+.innerDisabled-1YTFPN,
+.scrollableContainer-2NUZem {
     opacity: 1 !important;
 }
-.barButtonAlt-3gIkIj{
+.barButtonAlt-3gIkIj {
     background: transparent;
 }
 .newMessagesBar-mujexs {
@@ -224,19 +280,21 @@
 }
 /*hide gift send*/
 .channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA[aria-label="Send a gift" i]:first-child {
-    display:none;
+    display: none;
 }
 .attachButtonInner-PQjIyk {
     margin-left: -4px !important;
 }
 
 /*Home*/
-.itemCard-v9viV7 { /*firend activty bg color fix*/
+.itemCard-v9viV7 {
+    /*firend activty bg color fix*/
     background-color: var(--Colleft)
 }
 
 /*call related changes*/
-.container-1giJp5, .activityPanel-28dQGo {
+.container-1giJp5,
+.activityPanel-28dQGo {
     border-bottom: transparent;
 }
 .overlayTitle-8IcS01.idle-U-LIlZ {
@@ -250,6 +308,13 @@
     margin-bottom: 10px;
 }
 
+
+/* new server discovery */
+.sidebar-2K8pFh {
+    background-color: var(--Colleft);
+}
+
+/*new channel + button*/
 /*---------------------accent color system -again thanks to Customa--------------------*/
 /*---------------------i have very little clue what  all this means--------------------*/
 /*-------------------basically adds a lot of ColAccent around the app------------------*/
@@ -272,17 +337,13 @@
 .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.4);"] {
     background: var(--ColAccentAlpha)!important
 }
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2);"] {
-    background-color: var(--ColAccentAlpha)!important;
-    color: var(--ColAccent)!important
-}
 .highlight {
     background-color: var(--ColAccentAlpha);
     filter: brightness(3)
 }
 /*normal*/
 .barFill-23-gu-,
-.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span,
 .children-rWhLdy .nowPlaying-284llR,
 .circleIconButton-jET_ig.selected-ugP_am,
 .container-3ayLPN .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
@@ -316,9 +377,7 @@
 .progressBar-2Hd4f8 .barForeground-3KglC8,
 .questionMark-CWEQZn.flexCenter-3_1bcw,
 .questionMark-CWEQZn.flexCenter-3_1bcw:hover,
-.result-3w1ZcL
-.result-3w1ZcL
-.selectorButtonSelected-1j4DmC,
+.result-3w1ZcL .result-3w1ZcL .selectorButtonSelected-1j4DmC,
 .selectorButtonSelected-336oUc,
 .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ,
 .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ,
@@ -335,10 +394,10 @@
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .wrapper-232cHJ,
-.wrapper-3WhCwL:hover
- {
+.wrapper-3WhCwL:hover {
     background-color: var(--ColAccent)
 }
+/* ping indicators with numbers*/
 .item-26Dhrx[style*="rgb(114, 137, 218)"],
 .languageCheckbox .checkbox-1ix_J3.checked-3_4uQ9,
 .numberBadge-2s8kKX,
@@ -350,7 +409,8 @@
 .tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129);"] {
     background-color: var(--ColAccent)!important
 }
-.attachButtonPlay-3iJ0mf, /*server plus and search button is the only thing i can notice*/
+.attachButtonPlay-3iJ0mf,
+/*server plus and search button is the only thing i can notice*/
 .circleIconButton-jET_ig,
 .hasMore-3e72_v,
 .hasMoreButton-1MELpI,
@@ -369,7 +429,9 @@
 .expandedFolderIconWrapper-1xLaU- svg[style="color: rgb(114, 137, 218);"] {
     color: var(--ColAccent)!important
 }
-.checkbox-3kaeSU,  .checkboxInner-3yjcPe, .checkboxElement-1qV33p:checked+span,
+.checkbox-3kaeSU,
+.checkboxInner-3yjcPe,
+.checkboxElement-1qV33p:checked + span,
 .dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:focus,
 .dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,
 .dropdown-2fxkrS .lookFilled-1h1y05.selectOpen-hQuR6b,
@@ -386,11 +448,12 @@
 .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV:focus {
     border-color: var(--ColAccent)
 }
-.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+.lookLink-9FtZy-.colorBrand-3pXr91:hover {
     border-bottom: 1px solid var(--ColAccent)
 }
 
-.avatarSpeaking-3MqCHL, /*something to do with calling?*/
+.avatarSpeaking-3MqCHL,
+/*something to do with calling?*/
 .border-3dQmSY.speaking-WDn8Wm,
 .border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
 .border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi,
@@ -404,7 +467,8 @@
     background-color: var(--ColAccentAlpha)!important;
     color: var(--ColAccent)!important
 }
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j { /*upload 2nd screen border around preview*/
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    /*upload 2nd screen border around preview*/
     border: 2px solid var(--ColAccent)
 }
 .uploadModal-2ifh8j .inner-3nWsbo,
@@ -416,7 +480,8 @@
     background-color: var(--ColTransparent1)!important;
     border-color: var(--ColAccent)!important
 }
-.regionSelect-3lf4eE button, /* what is .wrapper-2ZbzR9 and .downloadApps-wbBFdZ ?*/
+.regionSelect-3lf4eE button,
+/* what is .wrapper-2ZbzR9 and .downloadApps-wbBFdZ ?*/
 .wrapper-2ZbzR9 .actions-pBaxX6 .action-1lSjCi.join-33Tr-7 *,
 .wrapper-2ZbzR9 .header-3ZP1MY,
 .wrapper-2ZbzR9 .sampleLink-KPFu3I,
@@ -433,7 +498,8 @@
     font-weight: 900;
     font-family: "Font Awesome 5 Pro", sans-serif!important
 }
-.container svg path .unreadPillCapStroke-7rkHbg, .unreadPillCap-3_K2q2 {
+.container svg path .unreadPillCapStroke-7rkHbg,
+.unreadPillCap-3_K2q2 {
     color: var(--ColAccent);
     stroke: var(--ColAccent) !important;
 }
@@ -443,24 +509,28 @@
 .updateIconForeground-3tnNZn {
     fill: currentColor
 }
-.content-1o0f9g,  .mention:hover { /*fix the -----date----new bar .mention:hover*/
+.content-1o0f9g,
+.mention:hover {
+    /*fix the -----date----new bar .mention:hover*/
     color: white !important;
 }
 /*--------------------End of accent color stuff from customa--------------------*/
 /*------------------------------------------------------------------------------*/
-
 /*quickcss codeblock design*/
-.powercord-quickcss{
+.powercord-quickcss {
     border-radius: 5px;
     overflow: hidden;
     border: 1px solid var(--background-tertiary);
     background: var(--background-secondary);
-  }
-  
-  :root .powercord-quickcss-header, :root .powercord-quickcss-footer, .powercord-quickcss .CodeMirror, .powercord-quickcss .CodeMirror-gutters{
+}
+
+:root .powercord-quickcss-header,
+:root .powercord-quickcss-footer,
+.powercord-quickcss .CodeMirror,
+.powercord-quickcss .CodeMirror-gutters {
     background: transparent !important;
-  }
-  /**
+}
+/**
  * Snippet from #css-snippets applied the Apr 30, 2020 at 5:31:56 PM
  * Created by A user#0001 (264062457448759296)
  * Snippet ID: 705440006960840799
@@ -471,11 +541,10 @@
     transition: filter .5s;
 }
 /*scroll if code modal too long*/
-.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1:hover{
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1:hover {
     filter: blur(0);
 }
 .markup-2BOw-j.tfmodal {
     overflow-y: auto !important;
     max-height: 800px !important;
 }
-
