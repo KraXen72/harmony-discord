@@ -1,6 +1,6 @@
 # Harmony theme for Discord
 
-*frequently maintained*
+**frequently maintained**
 vanilla Discord but Harmony
   
 **install using powercord.** https://powercord.dev
