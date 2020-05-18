@@ -150,7 +150,8 @@
 .header-8ilj5e,
 .nav-2KnmHb,
 .header-1TOWci,
-. {
+.container-2lgZY8,
+.privateChannels-1nO12o {
     background-color: var(--Colleft);
 }
 
@@ -208,10 +209,10 @@ body,
 .container-1D34oG,
 .libraryHeader-3g95kE,
 .container-1r6BKw,
-.homeWrapper-3-Wh5T,
+.homeWrapper-3-Wh5T
+.title-3qD0b-,
 .applicationStore-1pNvnv,
 .scroller-1d5FgU,
-.scroller-2FKFPG,
 .pageHeaderDrag-OPlmbm {
     /* add a small rounded corner thing? to message titlebar*/
     border-top-left-radius: 10px !important;
@@ -584,4 +585,8 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 /*hide the thingers  that explain status*/
 .separator-2I32lJ, .description-2L932D {
     display: none;
+}
+
+.statusItem-33LqPf path { /*this is only if you have the show game activity plugin */
+    fill: rgb(185, 187, 190);
 }
