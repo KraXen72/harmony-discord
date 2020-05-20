@@ -97,6 +97,9 @@
 .navList-1Y3exK {
     display: none;
 }
+.emojiPickerListWrapper-fz8KNK * {
+    background-color: var(--Colleft) !important;
+}
 .contentWrapper-2txmjs {
     padding-top: 0;
 }
@@ -440,12 +443,10 @@ body,
     border-bottom: 1px solid var(--ColAccent)
 }
 
-.avatarSpeaking-3MqCHL,
+
 /*something to do with calling?*/
-.border-3dQmSY.speaking-WDn8Wm,
 .border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
 .border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi,
-.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi,
 .content-ySCtCx .focused-1En8bG::after,
 .content-ySCtCx .result-3w1ZcL:hover::after,
 .tile-2silOL:hover .sourceThumbnail-14Iubx {
