@@ -11,15 +11,15 @@
     --Col-dcweb-4: #23272A;
     /*not quite black*/
     /*from app*/
-    --Col-dcapp-1: var(--background-primary);
-    /*main chat window*/
-    --COl-dcapp-2: var(--background-secondary);
-    /*channel list*/
-    --Col-dcapp-3: var(--background-tertiary);
-    /*server selector bg*/
+    --Col-dcapp-1: var(--background-primary); /*main chat window*/
+    --COl-dcapp-2: var(--background-secondary); /*channel list*/
+    --Col-dcapp-3: var(--background-tertiary); /*server selector bg*/
+    
+
     /*form last time*/
-    --Colr: #1d1e1f;
-    /*messenger grey bg*/
+    --Colr: #1d1e1f; /*messenger grey bg*/
+    
+
     /*my color variables*/
     --Col1: var(--Col-dcweb-4);
     --Col2: var(--background-secondary);
@@ -32,7 +32,7 @@
     --ColChannelList: var(--background-primary);
 
     /*important colors to change*/
-    --Colleft: var(--Col-dcweb-3);
+    --Colleft: var(--background-secondary);
     /*--background-primary: var(--Colr);*/
     /*accent color*/
     --ColAccent: #738adb;
@@ -45,7 +45,7 @@
     --ColServerSelBG: var(--Colleft);
     --ColChannelList: var(--Colleft);
     --ColTitleBar: var(--Colleft);
-    --ColMemberList: var(--background-primary);
+    --ColMemberList:var(--background-primary);
     --ColLink: var(--ColAccent);
     --text-link: var(--ColLink);
 }
@@ -54,18 +54,27 @@
 ::-webkit-scrollbar {
     width: 5px!important;
     height: 3px!important;
-    display: block
+    display: block;
 }
 
 ::-webkit-scrollbar-track-piece {
     background-color: rgba(0, 0, 0, 0)!important;
-    border: none!important
+    border: none !important;
 }
 
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-track {
-    border: none!important
+    border: none !important;
 }
+/*show scrollbar only on hover*/
+.messages-3amgkR {
+    overflow-y: hidden !important;
+}
+.messages-3amgkR:hover {
+    overflow-y: auto !important;
+}
+
+
 /*ctrl + K quick switcher made the input a bit darker*/
 .input-2VB9rf {
     Background-Color: var(--Col3);
@@ -600,3 +609,12 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .note-3kmerW textarea:focus { /* fix edit note profile idk*/
     background-color: transparent;
 }
+
+/*css snippet fix loading emojis by emma*/
+.emojiItem-14v6tW .emojiItemImageLoading-1yEIxx /* Fix Loading Emojis */ {
+    background-image: none;
+    background-color: var(--background-primary) !important;
+    border-radius: 30%;
+  }
+  
+
