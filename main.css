@@ -67,11 +67,11 @@
     border: none !important;
 }
 /*show scrollbar only on hover*/
-.messages-3amgkR {
-    overflow-y: hidden !important;
+.messages-3amgkR::-webkit-scrollbar-thumb {
+    visibility: hidden !important;
 }
-.messages-3amgkR:hover {
-    overflow-y: auto !important;
+.messages-3amgkR:hover::-webkit-scrollbar-thumb {
+    visibility: visible !important;
 }
 
 
@@ -615,6 +615,9 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
     background-image: none;
     background-color: var(--background-primary) !important;
     border-radius: 30%;
-  }
-  
+ }
 
+
+.toolbar-1t6TWx [aria-label="Member List"] {
+    display: none;
+  }
