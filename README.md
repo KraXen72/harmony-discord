@@ -9,7 +9,7 @@ vanilla Discord but Harmony
 2. put in ``powercord/src/themes/Harmony``
 3. put this into your css file:  
 ```css 
-@import 'https://raw.githubusercontent.com/KraXen72/harmony-discord/master/main.css'; 
+@import url("https://raw.githack.com/KraXen72/harmony-discord/master/main.css"); 
 ```   
 4. download the ``powercord_manifest.json`` from this repo and put it in the same folder.  
 5. ``Ctrl + R`` on discord to refresh it.
