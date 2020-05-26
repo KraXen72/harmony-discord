@@ -41,6 +41,10 @@
     /*default - rgba(115, 138, 219, 0.2) */
     --ColTransparent1: rgba(0, 0, 0, 0);
 
+    /*text muted is #72767d */
+    /* used for slowmode and somebody typing texts*/
+    --col-mute: #abadb4;
+
     /*set respecitve colors to Colleft - ignore*/
     --ColServerSelBG: var(--Colleft);
     --ColChannelList: var(--Colleft);
@@ -627,4 +631,21 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 ::selection { /*from smoothened https://github.com/LayneTheEpic/Smoothened */
 	background: #a5b3ff; /* meh this color looks better */
 	color: var(--text-normal);
+}
+
+/*today we style slowmode and somebody is typing*/
+
+/*make typing and slowmode a bit more subtle*/
+.typing-2GQL18,
+.typing-2GQL18 svg g circle,
+.cooldownWrapper-3joyFc,
+.cooldownWrapper-3joyFc * {
+    color: var(--col-mute) !important; 
+    fill:var(--col-mute) !important;
+}
+
+/*maybe make attach button the same color? jk, jk... unless? */
+/*you probably won't even notice*/
+.attachButtonInner-PQjIyk svg path {
+    fill: var(--col-mute);
 }
