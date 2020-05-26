@@ -49,6 +49,10 @@
     --ColLink: var(--ColAccent);
     --text-link: var(--ColLink);
 }
+
+
+
+
 /*misc changes*/
 /*scrollbars form Customa - big thanks to emma*/
 ::-webkit-scrollbar {
@@ -286,12 +290,6 @@ body,
     margin-left: -4px !important;
 }
 
-/*Home*/
-.itemCard-v9viV7 {
-    /*firend activty bg color fix*/
-    background-color: var(--Colleft)
-}
-
 /*call related changes*/
 .container-1giJp5,
 .activityPanel-28dQGo {
@@ -308,13 +306,11 @@ body,
     margin-bottom: 10px;
 }
 
-
 /* new server discovery */
 .sidebar-2K8pFh {
     background-color: var(--Colleft);
 }
 
-/*new channel + button*/
 /*---------------------accent color system -again thanks to Customa--------------------*/
 /*---------------------i have very little clue what  all this means--------------------*/
 /*-------------------basically adds a lot of ColAccent around the app------------------*/
@@ -617,6 +613,11 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
  }
 
 
-.toolbar-1t6TWx [aria-label="Member List"] {
+.toolbar-1t6TWx [aria-label="Member List"] { /*member list toggle hide*/
     display: none;
   }
+
+::selection { /*from smoothened https://github.com/LayneTheEpic/Smoothened */
+	background: #a5b3ff; /* meh this color looks better */
+	color: var(--text-normal);
+}
