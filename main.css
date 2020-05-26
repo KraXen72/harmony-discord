@@ -50,8 +50,15 @@
     --text-link: var(--ColLink);
 }
 
-
-
+.wrapper-3D2qGf, /*active now / home */
+.outer-1AjyKL {
+    background-color: var(--Col-dcweb-4);
+    border-radius: 6px;
+}
+.wrapper-3D2qGf:hover,
+.outer-1AjyKL:hover {
+    background-color: var(--Col-dcweb-3);
+}
 
 /*misc changes*/
 /*scrollbars form Customa - big thanks to emma*/
