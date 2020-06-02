@@ -54,14 +54,9 @@
     --text-link: var(--ColLink);
 }
 
-.wrapper-3D2qGf, /*active now / home */
-.outer-1AjyKL {
-    background-color: var(--Col-dcweb-4);
-    border-radius: 6px;
-}
-.wrapper-3D2qGf:hover,
-.outer-1AjyKL:hover {
-    background-color: var(--Col-dcweb-3);
+.itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL {
+    opacity: 0.83;
+    border-radius: 7px;
 }
 
 /*misc changes*/
