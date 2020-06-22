@@ -112,31 +112,30 @@
 }
 
 /*emoji picker fix maybe*/
-/*credit to emma🌺#0968 for most of the code */
-.navList-1Y3exK {
+
+/*credit to emma🌺#0968 for some of the code */
+/* remove nav*/
+.navList-2UtuhC {
     display: none;
 }
-.emojiPickerListWrapper-fz8KNK * {
-    background-color: var(--Colleft) !important;
-}
-.contentWrapper-2txmjs {
-    padding-top: 0;
-}
-.wrapper-1rqM3x,
-.container-3ISnnM {
-    margin-top: -15px;
-}
-.emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
-    transform: rotate(-90deg) translateX(-143px) translateY(190px);
-    height: 430px;
+.positionContainer-DEuh7X:not(.positionContainerEditingMessage-13cck-) .drawerSizingWrapper-17Mss4 .contentWrapper-SvZHNd #gif-picker-tab-panel, .positionContainer-DEuh7X:not(.positionContainerEditingMessage-13cck-) .drawerSizingWrapper-17Mss4 .contentWrapper-SvZHNd #emoji-picker-tab-panel {
+    margin-top: -35px !important;
 }
 
+.nav-7UD0KD {
+    height: 0px !important;
+}
+.emojiPickerInExpressionPicker-3IzIcv .categoryList-2Kzf65 {
+    transform: rotate(-90deg) translateX(-111px) translateY(190px);
+}
+.drawerSizingWrapper-17Mss4 {
+    height: 444px;
+}
 .listItems-1uJgMC .categoryItem-1D0nxC,
 .unicodeShortcut-15J8Ck {
     transform: rotate(90deg);
 }
-
-.emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl {
+.emojiPicker-3PwZFl {
     grid-template-rows: 46px auto calc(56px + 48px);
     grid-template-columns: 0 auto;
     position: relative;
@@ -144,7 +143,7 @@
 .drawerSizingWrapper-27qFHb {
     max-width: 424px;
 }
-.resizeHandle-2VYGet {
+.resizeHandle-3NRr0z {
     /*disable, resize and reenable this if ur emoji FAT*/
     display: none;
     cursor: default;
@@ -153,8 +152,9 @@
     /*emoji preview center it*/
     margin-left: -5px !important;
 }
+
 /*reaction emoji picker*/
-.categoryList-2Kzf65 {
+.wrapper-2Gsate.categoryList-2Kzf65{
     transform: rotate(-90deg);
     transform: rotate(-90deg) translateX(-143px) translateY(190px);
     height: 430px;
@@ -168,6 +168,12 @@
     height: 440px;
     width: 428px;
 }
+
+/*applying respecive color variables*/
+.scroller-2TZvBN {
+    /*server selector*/
+    background-color: var(--ColServerSelBG) !important;
+}
 .categoryWrapper-UZ5YNj,
 .header-8ilj5e,
 .nav-2KnmHb,
@@ -175,12 +181,6 @@
 .container-2lgZY8,
 .privateChannels-1nO12o {
     background-color: var(--Colleft);
-}
-
-/*applying respecive color variables*/
-.scroller-2TZvBN {
-    /*server selector*/
-    background-color: var(--ColServerSelBG) !important;
 }
 .container-PNkimc,
 .scroller-1JbKMe {
