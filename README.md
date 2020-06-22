@@ -1,7 +1,6 @@
 # Harmony theme for Discord
 
-**frequently updated**  
-vanilla Discord but Harmony
+a frequently updated theme that keeps the vanilla discord experience, but brings harmony and many tweaks into it.
   
 **install using powercord.** https://powercord.dev
 ## Automatic Installation (recommended)
