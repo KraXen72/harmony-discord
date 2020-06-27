@@ -187,9 +187,9 @@
     /*channel list*/
     background-color: var(--ColChannelList) !important;
 }
-.members-1998pB {
+.members-1998pB, .membersWrap-2h-GB4 * {
     /*members list*/
-    background-color: var(--ColMemberList);
+    background-color: var(--ColMemberList) !important;
 }
 .titleBar-AC4pGV {
     /*title bar*/
