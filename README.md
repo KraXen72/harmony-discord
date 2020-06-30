@@ -27,5 +27,9 @@ if this doesent work go to this link and copy the contents to the css file
 5. ``Ctrl + R`` on discord to refresh it.
 6. If you want to turn the theme off or on, also switch themes, i recommend installing this plugin: https://github.com/LandenStephenss/Themer.  
 7. enjoy
+
+## My other themes
+
+<blockquote class="embedly-card"><h4><a href="https://github.com/KraXen72/deep-blue-discord">KraXen72/deep-blue-discord</a></h4><p>A theme for discord Based off the new Deep Blue Discord Concept art on their webpage: https://discord.com/new, Uses my Harmony theme as base</p></blockquote>
   
 for questions contact KraXen72#9190 on Discord    
