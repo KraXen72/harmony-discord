@@ -1,7 +1,12 @@
 # Harmony theme for Discord
 
 a frequently updated theme that keeps the vanilla discord experience, but brings harmony and many tweaks into it.
-  
+
+## Screenshots
+![main screen](https://cdn.discordapp.com/attachments/538734863977676803/702845041558814730/main_screen.png)  
+![changes part 1](https://cdn.discordapp.com/attachments/538734863977676803/702845044129792090/changes.png)  
+![changes part 2](https://cdn.discordapp.com/attachments/538734863977676803/702845046986375208/changes2.png)  
+
 **install using powercord.** https://powercord.dev
 ## Installation - Automatic updates (recommended)
 1. make a plain css file. name it ``main.css``  
@@ -19,11 +24,6 @@ a frequently updated theme that keeps the vanilla discord experience, but brings
 1. do all the steps as before
 2. open your ``main.css`` file in a text editor.
 3. Copy the contents of ``main.css`` from github into your local ``main.css``
-4. If this metod also fails, contact me on Discord: KraXen7#9190
-  
-## Screenshots
-![main screen](https://cdn.discordapp.com/attachments/538734863977676803/702845041558814730/main_screen.png)  
-![changes part 1](https://cdn.discordapp.com/attachments/538734863977676803/702845044129792090/changes.png)  
-![changes part 2](https://cdn.discordapp.com/attachments/538734863977676803/702845046986375208/changes2.png)  
+4. If even this metod doesen't work, contact me on Discord: KraXen7#9190
   
 for questions contact KraXen72#9190 on Discord    
