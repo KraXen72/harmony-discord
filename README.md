@@ -1,8 +1,7 @@
 # Harmony theme for Discord
 
 a frequently updated theme that keeps the vanilla discord experience, but brings harmony and many tweaks into it.
-
-## Screenshots
+  
 ![main screen](https://cdn.discordapp.com/attachments/538734863977676803/702845041558814730/main_screen.png)  
 ![changes part 1](https://cdn.discordapp.com/attachments/538734863977676803/702845044129792090/changes.png)  
 ![changes part 2](https://cdn.discordapp.com/attachments/538734863977676803/702845046986375208/changes2.png)  
