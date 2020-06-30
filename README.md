@@ -3,7 +3,7 @@
 a frequently updated theme that keeps the vanilla discord experience, but brings harmony and many tweaks into it.
   
 **install using powercord.** https://powercord.dev
-## Automatic Installation (recommended)
+## Installation - Automatic updates (recommended)
 1. make a plain css file. name it ``main.css``  
 2. put in ``powercord/src/themes/Harmony``
 3. put this into your css file:  
@@ -15,7 +15,7 @@ a frequently updated theme that keeps the vanilla discord experience, but brings
 6. If you want to turn the theme off or on, also switch themes, i recommend installing this plugin: https://github.com/LandenStephenss/Themer.  
 7. enjoy
   
-## Manual installation (if auto doesen't work)
+## Installation - No auto updates (if first one doesen't work)
 1. do all the steps as before
 2. open your ``main.css`` file in a text editor.
 3. Copy the contents of ``main.css`` from github into your local ``main.css``
