@@ -78,6 +78,15 @@
 .messages-3amgkR:hover::-webkit-scrollbar-thumb {
     visibility: visible !important;
 }
+/*change some text from all caps to only fist letter cap*/
+.bodyTitle-Y0qMQz  {
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+/* hide protips bc im a pro*/
+.protip-YaFfgO {
+    display: none;
+}
 
 
 /*ctrl + K quick switcher made the input a bit darker*/
@@ -683,3 +692,5 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .footer-1fjuF6{
     border-top: none;
 }
+
+
