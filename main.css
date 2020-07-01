@@ -54,11 +54,6 @@
     --text-link: var(--ColLink);
 }
 
-.itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL {
-    opacity: 0.83;
-    border-radius: 7px;
-}
-
 /*misc changes*/
 /*scrollbars form Customa - big thanks to emma*/
 ::-webkit-scrollbar {
@@ -628,8 +623,6 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 	color: var(--text-normal);
 }
 
-/*today we style slowmode and somebody is typing*/
-
 /*make typing and slowmode a bit more subtle*/
 .typing-2GQL18,
 .typing-2GQL18 svg g circle,
@@ -643,4 +636,50 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 /*you probably won't even notice*/
 .attachButtonInner-PQjIyk svg path {
     fill: var(--col-mute);
+}
+
+/*now playing - home - friends - active now*/
+.itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL {
+    opacity: 0.83;
+    border-radius: 7px;
+}
+.wrapper-3D2qGf {
+    background-color: var(--background-secondary-alt) !important;
+    margin: 16px;
+    border-radius: 10px;
+    box-shadow: unset;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.wrapper-3D2qGf:hover {
+    background-color: var(--background-primary);
+}
+
+/* user popout - credit to : https://github.com/A-User-s-Discord-Themes/Couve*/
+/*role pills*/
+.role-2irmRk{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    padding: 5px;
+}
+.roleCircle-3xAZ1j::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    z-index: -1;
+    pointer-events: none;
+}
+/*Bottom*/
+.footer-1fjuF6{
+    border-top: none;
 }
