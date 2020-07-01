@@ -662,9 +662,10 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all 0.3s;
 }
-.wrapper-3D2qGf:hover {
-    background-color: var(--background-primary);
+.wrapper-3D2qGf:hover, .wrapper-3D2qGf:hover .section-2gLsgF {
+    background-color: var(--background-primary) !important;
 }
 
 /* user popout - credit to : https://github.com/A-User-s-Discord-Themes/Couve*/
