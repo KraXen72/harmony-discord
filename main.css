@@ -87,6 +87,10 @@
 .protip-YaFfgO {
     display: none;
 }
+.botTagVerified-1klIIt {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
 
 
 /*ctrl + K quick switcher made the input a bit darker*/
@@ -412,7 +416,8 @@ body,
 .result-3w1ZcL[style*=background-color],
 .selectableItem-1MP3MQ.selected-31soGA,
 .switch-3wwwcV.valueChecked-m-4IJZ[style*="rgb(67, 181, 129)"],
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129);"] {
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129);"], 
+.botTag-3W9SuW, .botTagRegular-2HEhHi *, .botText-1526X_, .botTagVerified-1klIIt  {
     background-color: var(--ColAccent)!important
 }
 .attachButtonPlay-3iJ0mf,
