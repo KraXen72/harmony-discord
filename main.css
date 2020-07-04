@@ -325,6 +325,16 @@ body,
     background-color: var(--Colleft);
 }
 
+/*inbox*/
+ .recentMentionsPopout-3rCiI6, .messagesPopoutWrap-1MQ1bW {
+     max-height: 93vh !important;
+ }
+ 
+ /* remove help button bc i don't like it anyway*/
+ a[href="https://support.discord.com"] {
+     display: none;
+ }
+
 /*---------------------accent color system -again thanks to Customa--------------------*/
 /*---------------------i have very little clue what  all this means--------------------*/
 /*-------------------basically adds a lot of ColAccent around the app------------------*/
@@ -697,6 +707,11 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 /*Bottom*/
 .footer-1fjuF6{
     border-top: none;
+}
+
+/*css snipet also from the person above - old streamin color*/
+:root .headerStreaming-2FjmGz{
+    background: #593695 !important;
 }
 
 
