@@ -682,6 +682,13 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .wrapper-3D2qGf:hover, .wrapper-3D2qGf:hover .section-2gLsgF {
     background-color: var(--background-primary) !important;
 }
+.wrapper-3D2qGf:hover .section-2gLsgF {
+    filter: brightness(1.2)
+}
+.peopleListItem-2nzedh {
+    border-top-color: transparent;
+}
+
 
 /* user popout - credit to : https://github.com/A-User-s-Discord-Themes/Couve*/
 /*role pills*/
