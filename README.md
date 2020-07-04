@@ -8,7 +8,7 @@ a frequently updated theme that keeps the vanilla discord experience, but brings
 
 **install using powercord.** https://powercord.dev
 ## Easy Install (recommended)
-1. go to ``Settings`` > ``Themes`` > ``Quick Css tab``
+1. go to ``Settings`` > ``Themes`` > ``Quick CSS tab``
 2. Paste this into the textarea on the first line
 ```css 
 @import url("https://raw.githack.com/KraXen72/harmony-discord/master/main.css"); 
