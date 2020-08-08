@@ -623,9 +623,8 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .separator-2I32lJ, .description-2L932D {
     display: none;
 }
-
-.statusItem-33LqPf path { /*this is only if you have the show game activity plugin */
-    fill: rgb(185, 187, 190);
+.statusItem-33LqPf[aria-label="Hide Game Activity"] svg {
+    margin-left: -2px;
 }
 /*scale the circular calling state*/
 .participant-1lOCsd {
@@ -722,13 +721,10 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .footer-1fjuF6{
     border-top: none;
 }
-
 /*css snipet also from the person above - old streamin color*/
 :root .headerStreaming-2FjmGz{
     background: #593695 !important;
 }
-
-
 /*rightlick on cog voice color*/
 #user-settings-cog-Voice___Video {
     color: white;
