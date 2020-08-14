@@ -87,10 +87,7 @@
 .protip-YaFfgO {
     display: none;
 }
-.botTagVerified-1klIIt {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
+
 
 
 /*ctrl + K quick switcher made the input a bit darker*/
@@ -195,9 +192,17 @@
     /*channel list*/
     background-color: var(--ColChannelList) !important;
 }
-.members-1998pB, .membersWrap-2h-GB4 * {
+.members-1998pB, .membersWrap-2h-GB4 *:not(.botText-1526X_):not(.botTagVerified-1klIIt):not(.botTag-3W9SuW) { /*fix bot tag stuff idk*/
     /*members list*/
     background-color: var(--ColMemberList) !important;
+}
+/*bot tag fix*/
+.botTagVerified-1klIIt {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.botText-1526X_, .botTagVerified-1klIIt {
+    background-color: var(--ColAccent) !important;
 }
 .titleBar-AC4pGV {
     /*title bar*/
@@ -724,4 +729,9 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 /*css snipet also from the person above - old streamin color*/
 :root .headerStreaming-2FjmGz{
     background: #593695 !important;
+}
+
+/*server folder*/
+.expandedFolderBackground-2sPsd-, .folder-21wGz3 {
+    background-color: var(--background-primary);
 }
