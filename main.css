@@ -734,4 +734,5 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 /*server folder*/
 .expandedFolderBackground-2sPsd-, .folder-21wGz3 {
     background-color: var(--background-primary);
+    transition: all 0.3s;
 }
