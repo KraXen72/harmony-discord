@@ -768,3 +768,19 @@ top: 15px
 .scrollerBase-289Jih::-webkit-scrollbar-track {
     background-color: transparent  !important;
 }
+
+/*few adjustments*/
+/*cool bgs*/
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    z-index: 1;
+    background-image: linear-gradient(to top right,#60adff,#4453fc);
+}
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+    z-index: 1;
+    background-image: linear-gradient(to top right,#1db954,#44fc9d);
+}
+
+/* Bring Back Blurple Verified Badge */
+.verified-1eC5dy:not(.disableColor-MwOAZf) > svg path {
+    fill: #7289DA
+}
