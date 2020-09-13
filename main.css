@@ -159,6 +159,10 @@
     margin-left: -5px !important;
 }
 
+.inspector-S2gM3e { /*fix inspector idk*/
+    margin-top: 10px;
+}
+
 /*reaction emoji picker*/
 .wrapper-2Gsate.categoryList-2Kzf65{
     transform: rotate(-90deg);
@@ -784,3 +788,4 @@ top: 15px
 .verified-1eC5dy:not(.disableColor-MwOAZf) > svg path {
     fill: #7289DA
 }
+
