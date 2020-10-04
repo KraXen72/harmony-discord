@@ -290,6 +290,9 @@ body,
     display: none;
 }
 .jumpToPresentBar-9P20AM,
+.jumpToPresentBar-G1R9s6,
+.newMessagesBar-265mhP,
+#NewMessagesBarJumpToNewMessages_803,
 .searchBar-3dMhjb,
 .searchBarComponent-32dTOx,
 .newMessagesBar-mujexs,
@@ -297,6 +300,9 @@ body,
 .barButtonMain-1giYuj {
     background-color: var(--Colleft) !important;
     opacity: 1;
+}
+.barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+    color: var(--ColAccent) !important;
 }
 .innerDisabled-1YTFPN,
 .scrollableContainer-2NUZem {
