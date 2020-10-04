@@ -642,7 +642,8 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .separator-2I32lJ, .description-2L932D {
     display: none;
 }
-.statusItem-33LqPf[aria-label="Hide Game Activity"] svg {
+.statusItem-33LqPf[aria-label="Hide Game Activity"] svg,
+.statusItem-33LqPf[aria-label="Show Game Activity"] svg {
     margin-left: -2px;
 }
 /*scale the circular calling state*/
