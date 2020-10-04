@@ -1,3 +1,4 @@
+@import url("https://raw.githack.com/Snapperito/CSS-Snippets/main/Settings%20Icons/settingsicons.css"); /*icons in settings idk looks cool*/
 :root {
 
     /*some color codes used by the disord app originaly - these varibles have no effect on how the theme looks*/
@@ -789,3 +790,23 @@ top: 15px
     fill: #7289DA
 }
 
+/*more snippets i like and i feel fit well with the theme*/
+/* Wider search results section */
+.searchResultsWrap-3-pOjs{ width: 500px; }
+
+/*nicer connected accounts*/
+.connectedAccount-36nQx7 {
+   background-color: var(--background-tertiary);
+   border: 0 !important;
+}
+/*invert plus and minus*/
+img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
+img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
+  filter: invert(1); 
+}
+
+/*fix emoji suggestions not being scrollable*/
+.autocompleteInner-zh20B_ {
+    overflow-y: auto;
+    max-height: 75vh;
+}
