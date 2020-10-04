@@ -55,6 +55,10 @@
     --text-link: var(--ColLink);
 }
 
+* { /*just because chrome*/
+    outline: 0px solid transparent !important;
+}
+
 /*misc changes*/
 /*scrollbars form Customa - big thanks to emma*/
 ::-webkit-scrollbar {
