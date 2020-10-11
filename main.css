@@ -1,4 +1,5 @@
-@import url("https://raw.githack.com/Snapperito/CSS-Snippets/main/Settings%20Icons/settingsicons.css"); /*icons in settings idk looks cool*/
+/*@import url("https://raw.githack.com/Snapperito/CSS-Snippets/main/Settings%20Icons/settingsicons.css"); /*icons in settings idk looks cool*/
+@import url('https://raw.githack.com/Snapperito/Settings-Icons/main/source.css');
 :root {
 
     /*some color codes used by the disord app originaly - these varibles have no effect on how the theme looks*/
@@ -584,23 +585,7 @@ body,
     filter: blur(5px);
     transition: filter .5s;
 }
-/*scroll if code modal too long*/
-.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1:hover {
-    filter: blur(0);
-}
-.markup-2BOw-j.tfmodal {
-    overflow-y: auto !important;
-    max-height: 800px !important;
-}
-.colorDefault-2K3EoJ:hover,
-.colorDefault-2K3EoJ.focused-3afm-j,
-.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
-.item-1tOPte:hover {
-    background-color: var(--background-modifier-hover) !important;
-}
-.mask-1qbNWk.icon-1IxfJ2 {
-    filter: none !important;
-}
+
 
 /*status and server icon colors fix ree*/
 
@@ -614,10 +599,6 @@ path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
 path[d="M10.418 13L12.708 15.294L11.292 16.706L6.586 11.991L11.294 7.292L12.707 8.708L10.41 11H21.949C21.446 5.955 17.177 2 12 2C6.486 2 2 6.487 2 12C2 17.513 6.486 22 12 22C17.177 22 21.446 18.046 21.949 13H10.418Z"] 
 {
     fill: #f04747;
-}
-.label-22pbtT.colorDanger-2qLCe1.focused-3afm-j,
-.colorDanger-2qLCe1.focused-3afm-j {
-    color: #f04747 !important;
 }
 /* invite people */
 div#guild-header-popout-invite-people {
@@ -645,7 +626,12 @@ foreignObject[mask="url(#svg-mask-status-online)"] {
 .statusItem-33LqPf[aria-label="Hide Game Activity"] svg,
 .statusItem-33LqPf[aria-label="Show Game Activity"] svg {
     margin-left: -2px;
+
 }
+
+
+
+
 /*scale the circular calling state*/
 .participant-1lOCsd {
     transform: scale(1.3, 1.3) !important;
