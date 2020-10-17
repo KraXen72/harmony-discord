@@ -807,3 +807,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
     overflow-y: auto;
     max-height: 75vh;
 }
+
+.wrapper-1F5TKx[aria-hidden="true"] { /*placeholder messages delet*/
+    visibility: hidden;
+}
