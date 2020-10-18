@@ -324,8 +324,11 @@ body,
     color: var(--ColAccent);
 }
 /*hide gift send*/
-.channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA[aria-label="Send a gift" i]:first-child {
-    display: none;
+[aria-label="Send a gift"] {
+    display: none
+}
+[aria-label="Open GIF picker"] {
+    margin-top: 2px;
 }
 .attachButtonInner-PQjIyk {
     margin-left: -4px !important;
