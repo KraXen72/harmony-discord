@@ -178,10 +178,11 @@
 .header-1TOWci,
 .container-2lgZY8,
 .privateChannels-1nO12o,
-.container-PNkimc {
+.container-PNkimc,
+.searchBar-6Kv8R2 {
     background-color: var(--Colleft) !important;
 }
-.header-8ilj5e {background-color: var(--background-secondary) !important;}
+.header-8ilj5e, .header-1TOWci {background-color: var(--background-secondary) !important;}
 .members-1998pB, .membersWrap-2h-GB4 *:not(.botText-1526X_):not(.botTagVerified-1klIIt):not(.botTag-3W9SuW) { /*fix bot tag stuff idk + members list*/
     background-color: var(--ColMemberList) !important;
 }
@@ -245,8 +246,7 @@
 #NewMessagesBarJumpToNewMessages_803,
 .searchBar-3dMhjb,
 .searchBarComponent-32dTOx,
-.newMessagesBar-mujexs,
-.searchBar-6Kv8R2 {
+.newMessagesBar-mujexs {
     background-color: var(--background-secondary) !important;
     border: 1px solid rgba(0,0,0,0.2);
     opacity: 1;
@@ -609,6 +609,9 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .bodyTitle-Y0qMQz  {text-transform: capitalize;font-size: 15px;}                                                        /*change some text from all caps to only fist letter cap*/
 .protip-YaFfgO {display: none;}                                                                                         /*hide protips bc im a pro*/
 * {outline: 0px solid transparent !important;}                                                                          /*remove all outlines just because chrome*/
+[aria-label="Send a gift"] {display: none;}                                                                             /*hide gift nitro button*/
+[aria-label="Open GIF picker"] {margin-top: 3px;}                                                                       /*realign gif picker*/
+.button-38aScr:disabled {opacity: 1;}                                                                                   /*make buttons in call opaque no matter what*/
 
 /*----//----STUFF FROM OTHER THEMES----------*/
 
