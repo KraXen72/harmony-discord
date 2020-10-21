@@ -826,3 +826,25 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 svg.slider-TkfMQL svg {
     display: none;
 }
+/*couve tooltips*/
+
+:root .tooltipBlack-PPG47z{
+    background: #fff;
+    color: #000;
+}
+
+.tooltipPointer-3ZfirK{
+    border-top-color: #fff !important;
+}
+
+:root .activityIcon-c4ew_N{
+    color: #222;
+}
+
+.button-1I8KM5{
+    background: transparent;
+}
+
+.button-1I8KM5:hover{
+    background: #0003;
+}
