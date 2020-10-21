@@ -47,6 +47,9 @@
     /* used for slowmode and somebody typing texts*/
     --col-mute: #abadb4;
 
+    /*nocturnal import*/
+    --primary: #008ae6;
+
     /*set respecitve colors to Colleft - ignore*/
     --ColServerSelBG: var(--Colleft);
     --ColChannelList: var(--Colleft);
@@ -54,6 +57,7 @@
     --ColMemberList:var(--background-primary);
     --ColLink: var(--ColAccent);
     --text-link: var(--ColLink);
+
 }
 
 * { /*just because chrome*/
@@ -328,7 +332,7 @@ body,
     display: none
 }
 [aria-label="Open GIF picker"] {
-    margin-top: 2px;
+    margin-top: 3px;
 }
 .attachButtonInner-PQjIyk {
     margin-left: -4px !important;
@@ -813,4 +817,12 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 
 .wrapper-1F5TKx[aria-hidden="true"] { /*placeholder messages delet*/
     visibility: hidden;
+}
+
+/*nocturnal slider*/
+.container-3auIfb:not([style*="125"]) {
+    background-color: var(--primary) !important;
+}
+svg.slider-TkfMQL svg {
+    display: none;
 }
