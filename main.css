@@ -17,6 +17,11 @@
     Licenced under WTFPL 2.0 - do whatever to this theme as long as name is changed.
     */
 
+    
+
+
+
+
     /*some color codes used by the disord app originaly - these varibles have no effect on how the theme looks*/
     /*from website*/
     --Col-dcweb-1: #7289DA; /*blue*/
@@ -52,8 +57,9 @@
     /*important colors to change*/
     --Colleft: var(--background-secondary);
 
-    --Colleft: var(--slate-background);
-    --background-primary: var(--slate-background-light);
+    
+
+    
 
     /*--background-primary: var(--Colr);*/
     /*accent color*/
@@ -69,6 +75,19 @@
 
     /*nocturnal import*/
     --primary: #008ae6;
+
+    /*gruvbox override*/
+    
+    --Colleft: var(--slate-background);
+    --background-primary: var(--slate-background-light);
+    /*
+    --background-primary: #262626;
+    --Colleft: #222222;
+    --background-secondary: var(--Colleft);
+    --ColAccent: #a57562;
+    --ColAccentAlpha: RGBA(165, 117, 98, 0.12);
+
+    */
 
     /*set respecitve colors to Colleft - ignore*/
     --ColServerSelBG: var(--Colleft);
@@ -186,6 +205,10 @@
 .members-1998pB, .membersWrap-2h-GB4 *:not(.botText-1526X_):not(.botTagVerified-1klIIt):not(.botTag-3W9SuW) { /*fix bot tag stuff idk + members list*/
     background-color: var(--ColMemberList) !important;
 }
+.membersGroup-v9BXpm span:not(.nameAndDecorators-5FJ2dg) {
+    color: var(--ColAccent);
+}
+
 .titleBar-AC4pGV {background-color: var(--ColTitleBar);}                /*title bar*/
 #app-mount,body,.bg-h5JY_x {background-color: var(--ColTitleBar);}      /*app bg idk*/
 .scroller-1JbKMe {background-color: unset;}
@@ -551,7 +574,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 /*----//----MESSAGE INPUT BOX AND RELATED CHANGES----------*/
 .scrollableContainer-2NUZem { /*main input bar*/
     border-radius: 25px;
-    background: var(--slate-background)
+    background: var(--Colleft)
 }
 .channelTextArea-rNsIhG {background: transparent;}
 .attachButton-2WznTc,
@@ -610,8 +633,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .protip-YaFfgO {display: none;}                                                                                         /*hide protips bc im a pro*/
 * {outline: 0px solid transparent !important;}                                                                          /*remove all outlines just because chrome*/
 [aria-label="Send a gift"] {display: none;}                                                                             /*hide gift nitro button*/
-[aria-label="Open GIF picker"] {margin-top: 3px;}                                                                       /*realign gif picker*/
-.button-38aScr:disabled {opacity: 1;}                                                                                   /*make buttons in call opaque no matter what*/
+[aria-label="Open GIF picker"] {margin-top: 3px;}
 
 /*----//----STUFF FROM OTHER THEMES----------*/
 
@@ -680,7 +702,3 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
     filter: blur(5px);
     transition: filter .5s;
 }
-
-
-
-
