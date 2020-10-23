@@ -35,5 +35,6 @@ if this doesent work copy the contents of the link into the css file.
 ## My other themes
 
 <blockquote class="embedly-card"><h4><a href="https://github.com/KraXen72/deep-blue-discord">KraXen72/deep-blue-discord</a></h4><p>A theme for discord Based off the new Deep Blue Discord Concept art on their webpage: https://discord.com/new, Uses my Harmony theme as base</p></blockquote>
+<blockquote class="embedly-card"><h4><a href="https://github.com/KraXen72/harmony-discord">KraXen72/rosebox-discord</a></h4><p>a discord theme that builds on my Harmony theme, but has a modified gruvbox with rose gold accents as a color scheme. install using powercord. https://powercord.dev</p></blockquote>
   
 for questions contact KraXen72#9190 on Discord    
