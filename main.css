@@ -651,6 +651,15 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .container-3auIfb:not([style*="125"]) {background-color: var(--primary) !important;}
 svg.slider-TkfMQL svg {display: none;}
 
+/*rosebox role dim*/
+[class*="username"] {
+    filter: sepia(30%) !important;
+    transition: filter 0.2s;
+  }
+  [class*="username"]:hover {
+    filter: sepia(20%) !important;
+  }
+
 /*----//----SNIPPETS----------*/
 
 /*invert plus and minus*/
