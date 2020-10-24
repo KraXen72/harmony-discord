@@ -546,7 +546,7 @@ path[d="M10.418 13L12.708 15.294L11.292 16.706L6.586 11.991L11.294 7.292L12.707 
 }
 div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite people server context menu*/
 .selected-1Tbx07, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {background-color: var(--background-modifier-selected) !important;}
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {background-color: var(--background-modifier-selected) !important;}
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O), .colorDefault-2K3EoJ.focused-3afm-j {background-color: var(--background-modifier-selected) !important;}
 
 /*----//----USER POPOUT----------*/
 /*role pills*/
