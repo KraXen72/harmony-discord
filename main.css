@@ -638,7 +638,6 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 * {outline: 0px solid transparent !important;}                                                                          /*remove all outlines just because chrome*/
 [aria-label="Send a gift"] {display: none;}                                                                             /*hide gift nitro button*/
 [aria-label="Open GIF picker"] {margin-top: 3px;}
-.emojiItemDisabled-1FvFuF {display: none !important}                                                                    /*hide disabled emoji*/    
 [href="https://support.discord.com"] {display: none !important }                                                        /*hide help*/    
 
 /*----//----STUFF FROM OTHER THEMES----------*/
