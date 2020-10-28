@@ -638,8 +638,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 * {outline: 0px solid transparent !important;}                                                                          /*remove all outlines just because chrome*/
 [aria-label="Send a gift"] {display: none;}                                                                             /*hide gift nitro button*/
 [aria-label="Open GIF picker"] {margin-top: 3px;}
-.emojiItemDisabled-1FvFuF {display: none !important}                                                                    /*hide disabled emoji*/    
-[href="https://support.discord.com"] {display: none !important }                                                        /*hide help*/    
+[href="https://support.discord.com"] {display: none !important }                                                        /*hide help*/                                                                      
 
 /*----//----STUFF FROM OTHER THEMES----------*/
 
@@ -717,3 +716,15 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
     filter: blur(5px);
     transition: filter .5s;
 }
+
+/*sticky home button*/
+div .tutorialContainer-1v44GL {
+    position: sticky;
+    top: -12px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 100;
+    background-color: var(--background-tertiary)
+  }
