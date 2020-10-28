@@ -11,7 +11,7 @@ an **actively maintained** theme that keeps the vanilla discord experience, but 
 1. go to ``Settings`` > ``Themes`` > ``Quick CSS tab``
 2. Paste this into the textarea on the first line
 ```css 
-@import url("https://kraxen72.github.io/harmony-discord/main.css); 
+@import url("https://kraxen72.github.io/harmony-discord/main.css"); 
 ```   
 3. enjoy
   
