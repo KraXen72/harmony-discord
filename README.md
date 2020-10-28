@@ -6,9 +6,9 @@ an **actively maintained** theme that keeps the vanilla discord experience, but 
 ![changes part 1](https://cdn.discordapp.com/attachments/538734863977676803/702845044129792090/changes.png)  
 ![changes part 2](https://cdn.discordapp.com/attachments/538734863977676803/702845046986375208/changes2.png)  
 
-**install using powercord.** https://powercord.dev
+**install using powercord / betterdiscord / any other discord css injector.** https://powercord.dev / https://github.com/rauenzi/BBDInstaller/releases/
 ## Easy Install (recommended)
-1. go to ``Settings`` > ``Themes`` > ``Quick CSS tab``
+1. go to ``Settings`` > ``Themes`` > ``Quick CSS tab`` / ``Custom CSS`` for BD
 2. Paste this into the textarea on the first line
 ```css 
 @import url("https://kraxen72.github.io/harmony-discord/main.css"); 
