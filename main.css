@@ -659,10 +659,12 @@ svg.slider-TkfMQL svg {display: none;}
 /*rosebox role dim*/
 [class*="username"], .roleColor-rz2vM0 {
     filter: sepia(30%) !important;
+    backdrop-filter: sepia(0%) !important;
     transition: filter 0.2s;
   }
   [class*="username"]:hover, .roleColor-rz2vM0:hover {
     filter: sepia(20%) !important;
+    backdrop-filter: sepia(0%) !important;
   }
 
 /*----//----SNIPPETS----------*/
