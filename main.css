@@ -657,6 +657,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 svg.slider-TkfMQL svg {display: none;}
 
 /*rosebox role dim*/
+/*
 [class*="username"], .roleColor-rz2vM0 {
     filter: sepia(30%) !important;
     backdrop-filter: sepia(0%) !important;
@@ -666,7 +667,7 @@ svg.slider-TkfMQL svg {display: none;}
     filter: sepia(20%) !important;
     backdrop-filter: sepia(0%) !important;
   }
-
+*/
 /*----//----SNIPPETS----------*/
 
 /*invert plus and minus*/
