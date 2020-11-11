@@ -384,7 +384,7 @@
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .wrapper-232cHJ,
-.wrapper-3WhCwL:hover {
+.wrapper-3WhCwL:hover, .unread-2lAfLh {
     background-color: var(--ColAccent)
 }
 /* ping indicators with numbers*/
