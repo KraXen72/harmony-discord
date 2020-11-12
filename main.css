@@ -241,8 +241,8 @@
     border-top-right-radius: 10px;
 }
 .header-2V-4Sw {
-	-webkit-box-shadow: rgba(0,0,0,0) !important;
-    box-shadow: rgba(0,0,0,0) !important;
+	-webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 /*sticky home button*/
 div .tutorialContainer-1v44GL {
