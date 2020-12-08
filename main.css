@@ -637,6 +637,11 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .peopleListItem-2nzedh {border-top-color: transparent;}
 .nowPlayingColumn-2sl4cE {background: var(--background-primary)}
 
+/*----//----NEW REPLIES-----------*/
+.repliedMessage-VokQwo.da-repliedMessage {
+    font-size: inherit !important;
+}
+
 /*----//----SMALL TWEAKS----------*/
 .wrapper-1F5TKx[aria-hidden="true"] { visibility: hidden;}                                                              /*placeholder messages delet*/
 .searchResultsWrap-3-pOjs{ width: 500px; }                                                                              /*Wider search results section */
