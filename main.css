@@ -667,6 +667,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 /*----//----STUFF FROM OTHER THEMES----------*/
 
 /*couve tooltips*/
+/*
 :root .tooltipBlack-PPG47z{
     background: #fff;
     color: #000;
@@ -675,7 +676,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 :root .activityIcon-c4ew_N{color: #222;}
 .button-1I8KM5{background: transparent;}
 .button-1I8KM5:hover{background: #0003;}
-
+*/
 /*nocturnal slider / switch*/
 .container-3auIfb:not([style*="125"]) {background-color: var(--primary) !important;}
 svg.slider-TkfMQL svg {display: none;}
