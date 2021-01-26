@@ -76,7 +76,7 @@
 
     /*gruvbox override*/
     
-    --Colleft: var(--slate-background);
+    --Colleft: var(--background-primary);
     /*--background-primary: var(--slate-background-light);*/
 
     /*new stuff ig
@@ -139,7 +139,7 @@
 
 
 /*----//---- EMOJI PICKERS----------*/
-/*credit to emma🌺#0968 for some of the code */
+/*credit to emmaðŸŒº#0968 for some of the code */
 /* remove nav*/
 .navList-2UtuhC {display: none;}
 .positionContainer-DEuh7X:not(.positionContainerEditingMessage-13cck-) .drawerSizingWrapper-17Mss4 .contentWrapper-SvZHNd #gif-picker-tab-panel, .positionContainer-DEuh7X:not(.positionContainerEditingMessage-13cck-) .drawerSizingWrapper-17Mss4 .contentWrapper-SvZHNd #emoji-picker-tab-panel {
@@ -253,17 +253,6 @@ div#popout_7505 {
 	-webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-/*sticky home button*/
-div .tutorialContainer-1v44GL {
-    position: sticky;
-    top: -12px;
-    padding-top: 12px;
-    padding-bottom: 6px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    z-index: 100;
-    background: var(--Colleft) !important;
-  }
 .chat-3bRxxu,
 .container-1D34oG,
 .libraryHeader-3g95kE,
@@ -654,6 +643,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .verified-1eC5dy:not(.disableColor-MwOAZf) > svg path { fill: #7289DA}                                                /*Bring Back Blurple Verified Badge */
 .scrollerBase-289Jih::-webkit-scrollbar-track {background-color: transparent  !important;}                              /*scroller quick fix*/
 .expandedFolderBackground-2sPsd-, .folder-21wGz3 {background-color: var(--background-primary);transition: all 0.3s;}    /*server folder*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; position:absolute; left:2.9%;}									/*jump to present bar*/
 ::selection {background: #a5b3ff; color: var(--text-normal); }                                                        /*better selection*/
 .toolbar-1t6TWx [aria-label="Member List"] { display: none;}                                                            /*member list toggle hide*/
 .participant-1lOCsd { transform: scale(1.3, 1.3) !important;margin-left: 20px;margin-right: 20px}                       /*scale the circular calling state*/
@@ -750,5 +740,3 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
     filter: blur(5px);
     transition: filter .5s;
 }
-
-
