@@ -28,6 +28,8 @@
     --Col-dcweb-2: #99AAB5; /*grey*/
     --Col-dcweb-3: #2C2F33; /*more grey*/
     --Col-dcweb-4: #23272A; /*not quite black*/
+	--col-dcweb-5: #36393f; /*original grey color from discord*/
+	--col-dcweb-6: #40444b; /*original chatbox color from discord*/
     
     /*from app*/
     --Col-dcapp-1: var(--background-primary); /*main chat window*/
@@ -76,7 +78,7 @@
 
     /*gruvbox override*/
     
-    --Colleft: var(--background-primary);
+    --Colleft: var(--Col-dcweb-3);
     /*--background-primary: var(--slate-background-light);*/
 
     /*new stuff ig
@@ -84,7 +86,7 @@
         -- left is --ColServerSelBG
 
     */
-    --background-primary: var(--background-secondary); /*main*/
+    --background-primary: var(--col-dcweb-5); /*main*/
     /*
     --background-primary: #262626;
     --Colleft: #222222;
@@ -98,7 +100,7 @@
     --ColServerSelBG: var(--Colleft);
     --ColChannelList: var(--Colleft);
     --ColTitleBar: var(--Colleft);
-    --ColMemberList:var(--background-primary);
+    --ColMemberList:var(--col-dcweb-5);
     --ColLink: var(--ColAccent);
     --text-link: var(--ColLink);
 
@@ -643,7 +645,8 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .verified-1eC5dy:not(.disableColor-MwOAZf) > svg path { fill: #7289DA}                                                /*Bring Back Blurple Verified Badge */
 .scrollerBase-289Jih::-webkit-scrollbar-track {background-color: transparent  !important;}                              /*scroller quick fix*/
 .expandedFolderBackground-2sPsd-, .folder-21wGz3 {background-color: var(--background-primary);transition: all 0.3s;}    /*server folder*/
-.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; position:absolute; left:2.9%;}					/*jump to present bar*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; position:absolute; left:2.9%;}									/*jump to present bar*/
+.scrollableContainer-2NUZem, .webkit-HjD9Er {background-color: var(--col-dcweb-6);}                                     /*chatbox color*/
 ::selection {background: #a5b3ff; color: var(--text-normal); }                                                        /*better selection*/
 .toolbar-1t6TWx [aria-label="Member List"] { display: none;}                                                            /*member list toggle hide*/
 .participant-1lOCsd { transform: scale(1.3, 1.3) !important;margin-left: 20px;margin-right: 20px}                       /*scale the circular calling state*/
