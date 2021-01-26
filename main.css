@@ -618,6 +618,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
     fill:var(--col-mute) !important;
 }
 .attachButtonInner-PQjIyk svg path {fill: var(--col-mute);} /* attach button the same color */
+.autocomplete-1vrmpx {background-color: var(--Colleft);} /*autocomplete*/
 
 
 /*----//----now playing - home - friends - active now----------*/
