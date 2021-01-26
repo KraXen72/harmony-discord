@@ -57,9 +57,6 @@
     /*important colors to change*/
     --Colleft: var(--background-secondary);
     --background-primary: var(--Colleft);
-
-    
-
     
 
     /*--background-primary: var(--Colr);*/
@@ -81,6 +78,13 @@
     
     --Colleft: var(--slate-background);
     --background-primary: var(--slate-background-light);
+
+    /*new stuff ig
+        -- main is: var(--background-secondary)
+        -- left is --ColServerSelBG
+
+    */
+    --background-primary: var(--background-secondary); /*main*/
     /*
     --background-primary: #262626;
     --Colleft: #222222;
