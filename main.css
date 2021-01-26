@@ -56,6 +56,7 @@
 
     /*important colors to change*/
     --Colleft: var(--background-secondary);
+    --background-primary: var(--Colleft);
 
     
 
@@ -123,7 +124,7 @@
 }
 
 /*----//---- MUTE, DEAFEN AND DISCONNECT BUTTON AREA----------*/
-.panels-j1Uci_ {
+.panels-j1Uci_, .container-3w7J-x {
     /*username, mute, deafen and settings panel*/
     background-color: var(--ColChannelList);
 }
