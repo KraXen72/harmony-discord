@@ -645,7 +645,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .verified-1eC5dy:not(.disableColor-MwOAZf) > svg path { fill: #7289DA}                                                /*Bring Back Blurple Verified Badge */
 .scrollerBase-289Jih::-webkit-scrollbar-track {background-color: transparent  !important;}                              /*scroller quick fix*/
 .expandedFolderBackground-2sPsd-, .folder-21wGz3 {background-color: var(--background-primary);transition: all 0.3s;}    /*server folder*/
-.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; position:absolute; left:2.9%;}									/*jump to present bar*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; position:absolute; left:2.9%;}					/*jump to present bar*/
 .scrollableContainer-2NUZem, .webkit-HjD9Er {background-color: var(--col-dcweb-6);}                                     /*chatbox color*/
 ::selection {background: #a5b3ff; color: var(--text-normal); }                                                        /*better selection*/
 .toolbar-1t6TWx [aria-label="Member List"] { display: none;}                                                            /*member list toggle hide*/
