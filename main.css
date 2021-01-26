@@ -77,7 +77,7 @@
     /*gruvbox override*/
     
     --Colleft: var(--slate-background);
-    --background-primary: var(--slate-background-light);
+    /*--background-primary: var(--slate-background-light);*/
 
     /*new stuff ig
         -- main is: var(--background-secondary)
