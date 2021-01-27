@@ -610,7 +610,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 /*----//----MESSAGE INPUT BOX AND RELATED CHANGES----------*/
 .scrollableContainer-2NUZem { /*main input bar*/
     border-radius: 25px;
-    background: var(--Colleft);
+    background: var(--background-primary);
     border: 1px solid rgba(0,0,0,0.2);
 }
 .channelTextArea-rNsIhG {background: transparent;}
