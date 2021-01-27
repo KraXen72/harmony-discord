@@ -30,7 +30,7 @@
     --Col-dcweb-4: #23272A; /*not quite black*/
     --col-dcweb-5: #36393f; /*original grey color from discord*/
     --col-dcweb-6: #40444b; /*original chatbox color from discord*/
-    --col-dcweb-7: #2f3136; /*embeds color*/
+    --col-dcweb-7: #2b2c31; /*embeds color modified*/
     
     /*from app*/
     --Col-dcapp-1: var(--background-primary); /*main chat window*/
