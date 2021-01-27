@@ -62,8 +62,8 @@
 
     /*go with original discord colors for now*/
 
-    --background-primary: var(--col-dcweb-6);
-    --Colleft: var(--col-dcweb-5);
+    --background-primary: var(--col-dcweb-5);
+    --Colleft: var(--col-dcweb-3);
 
     /*for a more darker look uncomment these*/
 
@@ -610,7 +610,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 /*----//----MESSAGE INPUT BOX AND RELATED CHANGES----------*/
 .scrollableContainer-2NUZem { /*main input bar*/
     border-radius: 25px;
-    background: var(--background-primary);
+    background: var(--col-dcweb-6);
     border: 1px solid rgba(0,0,0,0.2);
 }
 .channelTextArea-rNsIhG {background: transparent;}
