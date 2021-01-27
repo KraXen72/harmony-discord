@@ -28,7 +28,7 @@
     --Col-dcweb-2: #99AAB5; /*grey*/
     --Col-dcweb-3: #2C2F33; /*more grey*/
     --Col-dcweb-4: #23272A; /*not quite black*/
-	--col-dcweb-5: #36393f; /*original grey color from discord*/
+    --col-dcweb-5: #36393f; /*original grey color from discord*/
 	--col-dcweb-6: #40444b; /*original chatbox color from discord*/
     
     /*from app*/
@@ -57,11 +57,19 @@
     --ColChannelList: var(--background-primary);
 
     /*important colors to change*/
-    --Colleft: var(--background-secondary);
-    --background-primary: var(--Colleft);
+
     
 
-    /*--background-primary: var(--Colr);*/
+    /*go with original discord colors for now*/
+
+    --background-primary: var(--col-dcweb-5);
+    --Colleft: var(--Col-dcweb-3);
+
+    /*for a more darker look uncomment these*/
+
+    /*--Colleft: var(--background-secondary);
+    --background-primary: var(--Colleft);*/
+
     /*accent color*/
     --ColAccent: #738adb;
     /*default - #738adb*/
@@ -78,7 +86,7 @@
 
     /*gruvbox override*/
     
-    --Colleft: var(--Col-dcweb-3);
+    --Colleft: var(--slate-background);
     /*--background-primary: var(--slate-background-light);*/
 
     /*new stuff ig
@@ -86,7 +94,7 @@
         -- left is --ColServerSelBG
 
     */
-    --background-primary: var(--col-dcweb-5); /*main*/
+    --background-primary: var(--background-secondary); /*main*/
     /*
     --background-primary: #262626;
     --Colleft: #222222;
@@ -100,211 +108,12 @@
     --ColServerSelBG: var(--Colleft);
     --ColChannelList: var(--Colleft);
     --ColTitleBar: var(--Colleft);
-    --ColMemberList:var(--col-dcweb-5);
+    --ColMemberList:var(--background-primary);
     --ColLink: var(--ColAccent);
     --text-link: var(--ColLink);
 
 }
 
-/* powercord's spotify controls / mute & deafen and settings button from ajern*/ 
-.buttons-3JBrkn>.button-38aScr.noFocus-2C7BQj,
-.container-1giJp5 .statusWithPopout-3ZfFol,
-.container-1giJp5 .subtext-3CDbHg,
-.customText-tY5LJn,
-.description-2L932D,
-.separator-2I32lJ,
-.status-1fhblQ,
-.toolbar-1t6TWx>.clickable-3rdHwn:last-of-type,
-.tutorialContainer-SGrQ1h~.listItem-2P_4kh,
-[href="/store"],
-#channel-context-hide-voice-names,
-#channel-context-invite-people,
-.anchor-3Z-8Bb[href="https\:\/\/support\.discord\.com"] {
-	display: none
-}
-
-.powercord-spotify {
-	padding-bottom: 10px!important;
-	border-top: 1px solid #333!important;
-    border-bottom: 1px solid #333!important;
-    background: var(--Colleft)!important
-}
-
-.powercord-spotify img {
-	border-radius: 0!important
-}
-
-.powercord-spotify .spotify-seek-bar {
-	height: 4px!important;
-	border-radius: 2px!important;
-	margin-left: 15px!important;
-	margin-right: 15px!important;
-	background: #404040!important
-}
-
-.powercord-spotify .spotify-seek-bar-progress {
-	background: #b3b3b3!important;
-	border-radius: 42px!important
-}
-
-.powercord-spotify .container-3baos1 {
-	background-color: var(--Colleft) !important
-}
-
-.powercord-spotify .container-3baos1 .nameTag-3uD-yy .title-eS5yk3 {
-	color: #fff!important
-}
-
-.powercord-spotify .container-3baos1 .nameTag-3uD-yy .subtext-3CDbHg {
-	color: #b3b3b3!important;
-	overflow-x: hidden!important;
-	text-indent: -15px!important
-}
-
-.powercord-spotify .spotify-buttons button {
-	background: 0 0!important
-}
-
-.powercord-spotify .spotify-seek-elements,
-.powercord-spotify.hover .spotify-seek-elements {
-	color: #b3b3b3!important;
-	font-size: 70%!important;
-	margin-top: 3px!important;
-	margin-left: 10px!important;
-	margin-right: 10px!important
-}
-
-.powercord-spotify .horizontal-1ae9ci * {
-	width: 0!important;
-	overflow: hidden!important;
-	opacity: 0!important;
-	display: none!important
-}
-
-.powercord-spotify:hover .horizontal-1ae9ci * {
-	width: 32px!important;
-	overflow: visible!important;
-	opacity: 1!important;
-	display: block!important
-}
-
-.powercord-spotify .spotify-cover {
-    border-radius: 20px !important;
-}
-
-.powercord-spotify .avatarWrapper-2yR4wp {
-  
-    animation-name: spin;
-    animation-duration: 4000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    pointer-events: none !important;
-}
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-.panels-j1Uci_>.container-3baos1>.avatarWrapper-2yR4wp {
-	position: fixed;
-	left: 18px;
-	bottom: 10px
-}
-
-.container-3baos1 .flex-1xMQg5 {
-	position: fixed;
-	left: 17px;
-	flex-direction: column;
-	align-items: center;
-	bottom: 55px;
-	background: var(--background-secondary);
-	box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
-	border-radius: 5px;
-	opacity: 0 !important;
-	transition: 150ms ease;
-	pointer-events: none;
-	width: 35px !important;
-}
-
-.container-3baos1 .avatarWrapper-2yR4wp:hover {
-	padding-top: 15px
-}
-
-.container-3baos1 .avatarWrapper-2yR4wp:hover~.flex-1xMQg5,
-.container-3baos1 .flex-1xMQg5:hover {
-	opacity: 1 !important;
-	pointer-events: all
-}
-
-.container-3baos1 .flex-1xMQg5::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    border: 5px solid transparent;
-    border-top-color: var(--background-secondary);
-    margin-left: -5px;
-}
-
-.panels-j1Uci_ {
-	border-bottom-left-radius: 7px !important;
-}
-
-.panels-j1Uci_>div:last-child {
-	height: 0;
-	width: 0
-}
-
-.panels-j1Uci_>div:nth-child(1) {
-	margin-bottom: -2px
-}
-.none-2Eo-qx {
-    padding-bottom: 50px;
-}
-
-/* status picker from ajern */
-
-#status-picker.menu-3sdvDG .scroller-3BxosC {
-	display: flex
-}
-
-.menu-3sdvDG {
-	border-bottom-left-radius: 10px !important;
-    border-bottom-right-radius: 10px !important; 
-}
-
-#status-picker {
-	background: var(--background-secondary);
-	box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
-	animation: fadeIn 2s ease;
-	border-radius: 7px;
-	transform: rotate(-90deg);
-	position: fixed;
-	left: -103px;
-	bottom: 80px;
-	height: 45px;
-	width: 240px
-}
-
-#status-picker-custom-status,
-#status-picker-dnd,
-#status-picker-idle,
-#status-picker-invisible,
-#status-picker-online {
-	border-radius: 30px
-}
-
-@keyframes fadeIn {
-	0% {
-		opacity: 0
-	}
-	100% {
-		opacity: 1
-	}
-}
 /*----//----SCROLLBARS IDK----------*/
 /*scrollbars form Customa - big thanks to emma*/
 ::-webkit-scrollbar {
@@ -327,6 +136,17 @@
 .messages-3amgkR:hover::-webkit-scrollbar-thumb {
     visibility: visible !important;
 }
+
+/*----//---- MUTE, DEAFEN AND DISCONNECT BUTTON AREA----------*/
+.panels-j1Uci_, .container-3w7J-x {
+    /*username, mute, deafen and settings panel*/
+    background-color: var(--ColChannelList);
+}
+/*mute, deafen and settings button hover to circle - Also inspired from Customa*/
+.container-3baos1 button:not([aria-label=Unmute]):not([aria-label=Undeafen]):hover {
+    border-radius: 50%;
+}
+
 
 /*----//---- EMOJI PICKERS----------*/
 /*credit to emma🌺#0968 for some of the code */
@@ -408,7 +228,7 @@ div#popout_7505 {
     color: var(--ColAccent);
 }
 
-.titleBar-AC4pGV {background-color: var(--ColTitleBar); background: transparent;}                /*title bar*/
+.titleBar-AC4pGV {background-color: var(--ColTitleBar);}                /*title bar*/
 #app-mount,body,.bg-h5JY_x {background-color: var(--ColTitleBar);}      /*app bg idk*/
 .scroller-1JbKMe {background-color: unset;}
 .tabBody-3YRQ8W {background: var(--background-primary)}
@@ -420,12 +240,12 @@ div#popout_7505 {
     border-top-left-radius: 15px !important;
 }
 .header-2o-2hj,
-.searchBar-6Kv8R2 {
+.searchBar-6Kv8R2, .container-1taM1r, .container-3w7J-x, .sidebar-2K8pFh{
     /*server header*/
     z-index: 99;
     box-shadow: none;
     background-color: var(--ColChannelList);
-    border-top-right-radius: 10px;
+    border-top-right-radius: 8px !important;
     /*add another corner smol*/
 }
 .bannerVisible-14J9lQ
@@ -443,6 +263,17 @@ div#popout_7505 {
 	-webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+/*sticky home button*/
+div .tutorialContainer-1v44GL {
+    position: sticky;
+    top: -12px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 100;
+    background: var(--Colleft) !important;
+  }
 .chat-3bRxxu,
 .container-1D34oG,
 .libraryHeader-3g95kE,
@@ -473,7 +304,7 @@ div#popout_7505 {
 .searchBar-3dMhjb,
 .searchBarComponent-32dTOx,
 .newMessagesBar-mujexs {
-    background-color: var(--background-secondary) !important;
+    background-color: #262829 !important;
     border: 1px solid rgba(0,0,0,0.2);
     opacity: 1;
 }
@@ -665,6 +496,11 @@ div#popout_7505 {
     border: 2px dashed var(--ColAccent);
     border-radius: 10px;
 }
+/* i don't use powercord anymore so i can't test this, Mathias says it looks better like this, so ig.
+.powercord-spotify-playlist:hover {
+    background-color: var(--ColTransparent1)!important;
+    border-color: var(--ColAccent)!important
+}*/
 .regionSelect-3lf4eE button,
 /* what is .wrapper-2ZbzR9 and .downloadApps-wbBFdZ ?*/
 .wrapper-2ZbzR9 .header-3ZP1MY,
@@ -792,7 +628,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
     color: var(--col-mute) !important; 
     fill:var(--col-mute) !important;
 }
-/*.attachButtonInner-PQjIyk svg path {fill: var(--col-mute);} */ /* attach button the same color */
+.attachButtonInner-PQjIyk svg path {fill: var(--col-mute);} /* attach button the same color */
 .autocomplete-1vrmpx {background-color: var(--Colleft);} /*autocomplete*/
 
 
@@ -823,21 +659,72 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
     font-size: inherit !important;
 }
 
+/*----//----remove light theme for new server----*/
+.layer-2KE1M9 .theme-light, .layer-2KE1M9 .theme-light *, .focusLock-Ns3yie, .focusLock-Ns3yie *  { /*overwrite light theme colors*/
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #00b0f4;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: #36393f;
+    --background-secondary: #2f3136;
+    --background-secondary-alt: #292b2f;
+    --background-tertiary: #202225;
+    --background-accent: #4f545c;
+    --background-floating: #18191c;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(79, 84, 92, 0.16);
+    --background-modifier-active: rgba(79, 84, 92, 0.24);
+    --background-modifier-selected: rgba(79, 84, 92, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --background-mentioned: rgba(250, 166, 26, 0.05);
+    --background-mentioned-hover: rgba(250, 166, 26, 0.08);
+    --background-message-hover: rgba(4, 4, 5, 0.07);
+    --background-help-warning: rgba(250, 166, 26, 0.1);
+    --background-help-info: rgba(0, 176, 244, 0.1);
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: #2e3338;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: #fff;
+    --focus-primary: #00b0f4;
+    --radio-group-dot-foreground: #8ea1e1;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: #40444b;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+}
+.layer-2KE1M9 .theme-light .root-1gCeng {background: var(--background-primary) !important}
+.container-UC8Ug1, .regionSelectModal-12e-57 {background: var(--Colleft) !important}
+.theme-light .footer-2gL1pp {background-color: var(--background-primary) !important;
+box-shadow: none !important; -webkit-box-shadow: none !important;}
+
 /*----//----SMALL TWEAKS----------*/
 .wrapper-1F5TKx[aria-hidden="true"] { visibility: hidden;}                                                              /*placeholder messages delet*/
 .searchResultsWrap-3-pOjs{ width: 500px; }                                                                              /*Wider search results section */
 .verified-1eC5dy:not(.disableColor-MwOAZf) > svg path { fill: #7289DA}                                                /*Bring Back Blurple Verified Badge */
 .scrollerBase-289Jih::-webkit-scrollbar-track {background-color: transparent  !important;}                              /*scroller quick fix*/
 .expandedFolderBackground-2sPsd-, .folder-21wGz3 {background-color: var(--background-primary);transition: all 0.3s;}    /*server folder*/
-.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; position:absolute; left:2.9%;}									/*jump to present bar*/
-.scrollableContainer-2NUZem, .webkit-HjD9Er {background-color: var(--col-dcweb-6);}                                     /*chatbox color*/
 ::selection {background: #a5b3ff; color: var(--text-normal); }                                                        /*better selection*/
 .toolbar-1t6TWx [aria-label="Member List"] { display: none;}                                                            /*member list toggle hide*/
 .participant-1lOCsd { transform: scale(1.3, 1.3) !important;margin-left: 20px;margin-right: 20px}                       /*scale the circular calling state*/
 .recentMentionsPopout-3rCiI6, .messagesPopoutWrap-1MQ1bW {max-height: 93vh !important;}                                 /*inbox*/
-.sidebar-2K8pFh, .container-3w7J-x {background-color: var(--Colleft);}                                                                     /*new server discovery */
-.searchBarComponent-32dTOx, .search-36MZv- {background-color: var(--background-tertiary) !important}                   /*search bars*/
+.sidebar-2K8pFh {background-color: var(--Colleft);}                                                                     /*new server discovery */
+.searchBarComponent-32dTOx, .search-36MZv-, .searchBar-3dMhjb {background-color: var(--background-tertiary) !important} /*search bars*/
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; left:2.9%;}                                                      /*bottom jump to present bar is slightly shorter*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
 .input-2VB9rf {Background-Color: var(--Col3);}                                                                          /*ctrl + K quick switcher made the input a bit darker*/
 .bodyTitle-Y0qMQz  {text-transform: capitalize;font-size: 15px;}                                                        /*change some text from all caps to only fist letter cap*/
