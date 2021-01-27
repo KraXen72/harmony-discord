@@ -725,7 +725,7 @@ box-shadow: none !important; -webkit-box-shadow: none !important;}
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
 .jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; left:2.9%;}                                                      /*bottom jump to present bar is slightly shorter*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
-.input-2VB9rf {Background-Color: var(--Col3);}                                                                          /*ctrl + K quick switcher made the input a bit darker*/
+.input-2VB9rf {Background-Color: #36383d;}                                                                          /*ctrl + K quick switcher made the input a bit darker*/
 .bodyTitle-Y0qMQz  {text-transform: capitalize;font-size: 15px;}                                                        /*change some text from all caps to only fist letter cap*/
 .protip-YaFfgO {display: none;}                                                                                         /*hide protips bc im a pro*/
 * {outline: 0px solid transparent !important;}                                                                          /*remove all outlines just because chrome*/
