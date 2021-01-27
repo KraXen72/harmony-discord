@@ -30,7 +30,7 @@
     --Col-dcweb-4: #23272A; /*not quite black*/
     --col-dcweb-5: #36393f; /*original grey color from discord*/
     --col-dcweb-6: #40444b; /*original chatbox color from discord*/
-    --col-dcweb-7: #2b2c31; /*embeds color modified*/
+    --col-dcweb-7: #2f3136; /*original embeds color*/
     
     /*from app*/
     --Col-dcapp-1: var(--background-primary); /*main chat window*/
@@ -721,7 +721,7 @@ box-shadow: none !important; -webkit-box-shadow: none !important;}
 .participant-1lOCsd { transform: scale(1.3, 1.3) !important;margin-left: 20px;margin-right: 20px}                       /*scale the circular calling state*/
 .recentMentionsPopout-3rCiI6, .messagesPopoutWrap-1MQ1bW {max-height: 93vh !important;}                                 /*inbox*/
 .sidebar-2K8pFh {background-color: var(--Colleft);}                                                                     /*new server discovery */
-.searchBarComponent-32dTOx, .search-36MZv-, .searchBar-3dMhjb {background-color: var(--background-tertiary) !important} /*search bars*/
+.searchBarComponent-32dTOx, .search-36MZv-, .searchBar-3dMhjb {background-color: var(--background-primary) !important} /*search bars*/
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
 .jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; left:2.9%;}                                                      /*bottom jump to present bar is slightly shorter*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
