@@ -240,12 +240,12 @@ div#popout_7505 {
     border-top-left-radius: 15px !important;
 }
 .header-2o-2hj,
-.searchBar-6Kv8R2 {
+.searchBar-6Kv8R2, .container-1taM1r, .container-3w7J-x, .sidebar-2K8pFh{
     /*server header*/
     z-index: 99;
     box-shadow: none;
     background-color: var(--ColChannelList);
-    border-top-right-radius: 10px;
+    border-top-right-radius: 8px !important;
     /*add another corner smol*/
 }
 .bannerVisible-14J9lQ
@@ -304,7 +304,7 @@ div .tutorialContainer-1v44GL {
 .searchBar-3dMhjb,
 .searchBarComponent-32dTOx,
 .newMessagesBar-mujexs {
-    background-color: var(--background-secondary) !important;
+    background-color: #262829 !important;
     border: 1px solid rgba(0,0,0,0.2);
     opacity: 1;
 }
