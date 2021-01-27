@@ -86,7 +86,7 @@
 
     /*gruvbox override*/
     
-    --Colleft: var(--slate-background);
+    /*--Colleft: var(--slate-background);*/
     /*--background-primary: var(--slate-background-light);*/
 
     /*new stuff ig
@@ -94,7 +94,7 @@
         -- left is --ColServerSelBG
 
     */
-    --background-primary: var(--background-secondary); /*main*/
+    /*--background-primary: var(--background-secondary);*/
     /*
     --background-primary: #262626;
     --Colleft: #222222;
