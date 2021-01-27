@@ -304,7 +304,7 @@ div .tutorialContainer-1v44GL {
 .searchBar-3dMhjb,
 .searchBarComponent-32dTOx,
 .newMessagesBar-mujexs {
-    background-color: #262829 !important;
+    background-color: var(--col-dcweb-5) !important;
     border: 1px solid rgba(0,0,0,0.2);
     opacity: 1;
 }
@@ -724,7 +724,7 @@ box-shadow: none !important; -webkit-box-shadow: none !important;}
 .sidebar-2K8pFh {background-color: var(--Colleft);}                                                                     /*new server discovery */
 .searchBarComponent-32dTOx, .search-36MZv-, .searchBar-3dMhjb {background-color: var(--background-primary) !important} /*search bars*/
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
-.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb .container-2fRDfG {width: 94%; left:2.9%;}                                    /*bottom jump to present and reply bar is slightly shorter*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 94%; left:2.9%;}                                                      /*bottom jump to present bar is slightly shorter*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
 .input-2VB9rf {Background-Color: #36383d;}                                                                          /*ctrl + K quick switcher made the input a bit darker*/
 .bodyTitle-Y0qMQz  {text-transform: capitalize;font-size: 15px;}                                                        /*change some text from all caps to only fist letter cap*/
