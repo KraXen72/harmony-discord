@@ -228,7 +228,7 @@ div#popout_7505 {
     color: var(--ColAccent);
 }
 
-.titleBar-AC4pGV {background-color: var(--ColTitleBar);}                /*title bar*/
+.titleBar-AC4pGV {background-color: var(--ColTitleBar); background:transparent;}                /*title bar*/
 #app-mount,body,.bg-h5JY_x {background-color: var(--ColTitleBar);}      /*app bg idk*/
 .scroller-1JbKMe {background-color: unset;}
 .tabBody-3YRQ8W {background: var(--background-primary)}
