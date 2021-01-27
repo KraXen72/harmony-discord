@@ -37,7 +37,7 @@
     --Col-dcapp-1: var(--background-primary); /*main chat window*/
     --COl-dcapp-2: var(--background-secondary); /*channel list*/
     --Col-dcapp-3: var(--background-tertiary); /*server selector bg*/
-    --header-primary: var(--ColAccent); /* Usernames */
+    --header-primary: var(--Col-dcweb-1); /* Usernames */
 
     /*fron slate*/
     --slate-background-light: #2f363d;
