@@ -29,7 +29,8 @@
     --Col-dcweb-3: #2C2F33; /*more grey*/
     --Col-dcweb-4: #23272A; /*not quite black*/
     --col-dcweb-5: #36393f; /*original grey color from discord*/
-	--col-dcweb-6: #40444b; /*original chatbox color from discord*/
+    --col-dcweb-6: #40444b; /*original chatbox color from discord*/
+    --col-dcweb-7: #2f3136; /*embeds color*/
     
     /*from app*/
     --Col-dcapp-1: var(--background-primary); /*main chat window*/
@@ -63,7 +64,7 @@
     /*go with original discord colors for now*/
 
     --background-primary: var(--col-dcweb-5);
-    --Colleft: var(--col-dcweb-3);
+    --Colleft: var(--col-dcweb-7);
 
     /*for a more darker look uncomment these*/
 
