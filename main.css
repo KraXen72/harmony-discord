@@ -609,6 +609,11 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .footer-1fjuF6{border-top: none;}
 .note-3kmerW textarea:focus { background-color: transparent;} /* fix edit note profile idk*/
 
+/*----//----PROFILE BUTTONS (SEND MESSAGE, FRIEND REQUEST etc.)----------*/
+.lookFilled-1Gx00P.colorGreen-29iAKY {background-color: var(--Col-dcweb-1);}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {background-color: var(--Col-dcweb-1); opacity: 0.95;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {background-color: var(--Col-dcweb-1); opacity: 0.90;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {color: #eee;}
 
 /*----//----MESSAGE INPUT BOX AND RELATED CHANGES----------*/
 .scrollableContainer-2NUZem { /*main input bar*/
