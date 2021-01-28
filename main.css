@@ -727,7 +727,7 @@ box-shadow: none !important; -webkit-box-shadow: none !important;}
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
 .jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 92%; margin-left: auto; margin-right: auto;}                          /*bottom jump to present bar is slightly shorter*/
 .container-2fRDfG {width: 92%; margin-left: auto; margin-right: auto; border-bottom: 0px;}                              /*reply bar shorter*/
-.closeButton-37O8QC {color:rgb(240, 71, 71);} .name-hpTFiv {color:var(--Col-dcweb-1)}                                 /*reply bar colors*/
+.closeButton-37O8QC, .name-hpTFiv {color:var(--Col-dcweb-1)}                                                            /*reply bar colors*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
 .input-2VB9rf {Background-Color: #36383d;}                                                                          /*ctrl + K quick switcher made the input a bit darker*/
 .bodyTitle-Y0qMQz  {text-transform: capitalize;font-size: 15px;}                                                        /*change some text from all caps to only fist letter cap*/
