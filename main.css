@@ -618,6 +618,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .lookInverted-2D7oAl.colorBrand-3pXr91:active {background-color: #fff; opacity: 0.70;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:disabled {background-color: rgb(255, 255, 255);}
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover {background-color: #fff; opacity: 0.75;}
+.lookInverted-2D7oAl.colorGreen-29iAKY:active {background-color: #fff; opacity: 0.70;}
 
 /*----//----MESSAGE INPUT BOX AND RELATED CHANGES----------*/
 .scrollableContainer-2NUZem { /*main input bar*/
