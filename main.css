@@ -735,7 +735,7 @@ box-shadow: none !important; -webkit-box-shadow: none !important;}
 .sidebar-2K8pFh {background-color: var(--Colleft);}                                                                     /*new server discovery */
 .searchBarComponent-32dTOx, .search-36MZv-, .searchBar-3dMhjb {background-color: var(--background-primary) !important} /*search bars*/
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
-.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 92%; margin-left: auto; margin-right: auto;}                          /*bottom jump to present bar is slightly shorter*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 88%; margin-left: auto; margin-right: auto;}                          /*bottom jump to present bar is slightly shorter*/
 .container-2fRDfG {width: 92%; margin-left: auto; margin-right: auto; border-bottom: 0px;}                              /*reply bar shorter*/
 .closeButton-37O8QC {color:rgb(240, 71, 71);} .name-hpTFiv {color:var(--Col-dcweb-1)}                                 /*reply bar colors*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
