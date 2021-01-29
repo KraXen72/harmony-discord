@@ -613,7 +613,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .lookFilled-1Gx00P.colorGreen-29iAKY {background-color: var(--Col-dcweb-1);}
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {background-color: var(--Col-dcweb-1); opacity: 0.95;}
 .lookFilled-1Gx00P.colorGreen-29iAKY:active {background-color: var(--Col-dcweb-1); opacity: 0.90;}
-.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {color: #eee;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {background-color: var(--Col-dcweb-1) ;color: #eee;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {background-color: #fff; opacity: 0.75;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:active {background-color: #fff; opacity: 0.70;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:disabled {background-color: rgb(255, 255, 255);}
