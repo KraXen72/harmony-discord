@@ -613,7 +613,7 @@ div#guild-header-popout-invite-people { color: #677bc4 !important;}/*invite peop
 .lookFilled-1Gx00P.colorGreen-29iAKY {background-color: var(--Col-dcweb-1);}
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {background-color: var(--Col-dcweb-1); opacity: 0.95;}
 .lookFilled-1Gx00P.colorGreen-29iAKY:active {background-color: var(--Col-dcweb-1); opacity: 0.90;}
-.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {color: #eee;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {background-color: var(--Col-dcweb-1) ;color: #eee;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {background-color: #fff; opacity: 0.75;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:active {background-color: #fff; opacity: 0.70;}
 .lookInverted-2D7oAl.colorBrand-3pXr91:disabled {background-color: rgb(255, 255, 255);}
@@ -735,7 +735,7 @@ box-shadow: none !important; -webkit-box-shadow: none !important;}
 .sidebar-2K8pFh {background-color: var(--Colleft);}                                                                     /*new server discovery */
 .searchBarComponent-32dTOx, .search-36MZv-, .searchBar-3dMhjb {background-color: var(--background-primary) !important} /*search bars*/
 .botTagVerified-1klIIt {border-top-left-radius: 3px;border-bottom-left-radius: 3px;}                                    /*bot tag fix*/
-.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 92%; margin-left: auto; margin-right: auto;}                          /*bottom jump to present bar is slightly shorter*/
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {width: 88%; margin-left: auto; margin-right: auto;}                          /*bottom jump to present bar is slightly shorter*/
 .container-2fRDfG {width: 92%; margin-left: auto; margin-right: auto; border-bottom: 0px;}                              /*reply bar shorter*/
 .closeButton-37O8QC {color:rgb(240, 71, 71);} .name-hpTFiv {color:var(--Col-dcweb-1)}                                 /*reply bar colors*/
 .embedSuppressButton-1FonMn {cursor: pointer;display: none;}                                                            /*hide remove embed button*/
