@@ -293,6 +293,21 @@ div .tutorialContainer-1v44GL {
     border-top-left-radius: 0px !important;
 }
 
+/*new pill*/
+.text-2e2ZyG { /*the new text*/
+    display: none;
+}
+
+.bar-30k2ka { /*the actual pill*/
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-right: -1px;
+    margin-top: -4px;
+    opacity: 1;
+    border: 1px solid #ffffff70;
+}
+
 /*----//----JUMP BARS----------*/
 .jumpToPresentBar-9P20AM {padding-bottom: 0px;}
 .form-2fGMdU:before {display: none;}
