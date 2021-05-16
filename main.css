@@ -343,6 +343,7 @@ div#popout_7505 {
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
 .mouse-mode .message-2qnXI6.mentioned-xhSam7:hover,
 .reaction-1hd86g.reactionMe-wv5HKu,
+.theme-dark .wrapper-3WhCwL,
 .wrapper-3WhCwL {
     background-color: var(--ColAccentAlpha)
 }
@@ -439,6 +440,9 @@ div#popout_7505 {
 .updateIconForeground-3tnNZn,
 .wrapper-3WhCwL {
     color: var(--ColAccent)
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    border-color: transparent !important;
 }
 .expandedFolderIconWrapper-1xLaU- svg[style="color: rgb(114, 137, 218);"] {
     color: var(--ColAccent)!important
