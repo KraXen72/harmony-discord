@@ -1,3 +1,4 @@
+@import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
 :root {
     /*
      _   _                                                  ____  _                       _ 
@@ -15,11 +16,6 @@
 
     Licenced under WTFPL 2.0 - do whatever to this theme as long as name is changed.
     */
-
-    
-
-
-
 
     /*some color codes used by the disord app originaly - these varibles have no effect on how the theme looks*/
     /*from website*/
@@ -828,4 +824,20 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
  .userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1 { /*blur email until hover*/
     filter: blur(5px);
     transition: filter .5s;
+}
+
+/*old wordmark because poggers*/
+.wordmark-2iDDfm svg {width: 0px;}
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discordinated";
+    content: "Discord";
+    top: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--wordmark-text-color);
+    height: 19px;
+    width: 235px;
+    transform: translateY(-8%);
+    line-height: 20px;
 }
