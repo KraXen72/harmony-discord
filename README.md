@@ -1,4 +1,4 @@
-# Unmaintained, check out [rosebox/discord](https://github.com/KraXen72/rosebox/tree/master/discord) instead
+# Unmaintained, check out [rosebox's discord theme](https://github.com/KraXen72/rosebox/tree/master/discord) instead
 this theme will recieve no further updates.
 
 # Harmony theme for Discord
