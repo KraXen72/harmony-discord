@@ -1,3 +1,6 @@
+# Unmaintained, check out [rosebox/discord](https://github.com/KraXen72/rosebox/tree/master/discord) instead
+this theme will recieve no further updates.
+
 # Harmony theme for Discord
 
 a Discord theme that keeps the vanilla discord experience, but brings harmony and many tweaks into it.
